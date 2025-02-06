@@ -1,4 +1,3 @@
-import img1 from "../assets/machine.jpg";
 import img2 from "../assets/machine2.jpg";
 import img3 from "../assets/machine3.jpg";
 import img4 from "../assets/machine4.jpg";
@@ -18,28 +17,21 @@ import img17 from "../assets/machine17.jpg";
 import img18 from "../assets/machine18.jpg";
 export const data = [
   {
-    heading: "Chair One",
-    image: img1,
-    paragraph:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptates? Rem et alias qui enim.",
-    btn: "Learn more",
-  },
-  {
-    heading: "Chair Two",
+    heading: "Baby warmer",
     image: img2,
     paragraph:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptates? Rem et alias qui enim.",
     btn: "Learn more",
   },
   {
-    heading: "Chair Three",
+    heading: " manual hospital bed.",
     image: img3,
     paragraph:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptates? Rem et alias qui enim.",
     btn: "Learn more",
   },
   {
-    heading: "Chair Four",
+    heading: " gynecological or obstetric examination table. ",
     image: img4,
     paragraph:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptates? Rem et alias qui enim.",
