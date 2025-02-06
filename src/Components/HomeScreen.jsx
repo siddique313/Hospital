@@ -1,12 +1,9 @@
 import { useState } from "react";
 import logo from "../assets/logo.jpg";
 import { data } from "./data";
-
 import Gallery from "./Gallery";
-
 import Home from "./Home";
 import About from "./About";
-
 export const HomeScreen = () => {
   const [inputSearch, setInputSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(3);
@@ -14,11 +11,9 @@ export const HomeScreen = () => {
   const filterData = data.filter((curdata) =>
     curdata.heading.toLowerCase().includes(inputSearch.toLowerCase())
   );
-
   const handleLearnMore = () => {
     setVisibleCount(filterData.length);
   };
-
   return (
     <>
       <div className="bg-cyan-800 fixed w-full z-10 scroll-smooth">
