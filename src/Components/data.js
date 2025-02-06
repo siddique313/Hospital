@@ -31,7 +31,7 @@ export const data = [
     btn: "Learn more",
   },
   {
-    heading: " gynecological or obstetric examination table. ",
+    heading: " gynecological or obstetric . ",
     image: img4,
     paragraph:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptates? Rem et alias qui enim.",

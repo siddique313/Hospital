@@ -16,14 +16,14 @@ export const HomeScreen = () => {
   };
   return (
     <>
-      <div className="bg-cyan-800 fixed w-full z-10 scroll-smooth">
+      <div className="bg-black fixed w-full z-10 scroll-smooth">
         <header className="justify-between items-center flex h-16">
           <div className="ml-4 h-20 flex items-center justify-center">
             <img className="rounded-full h-12 w-12" src={logo} alt="Logo" />
           </div>
           <div className="justify-center self-center items-center flex">
             <input
-              className="outline-none w-full px-2 py-1 rounded-2xl border-black border-2"
+              className="outline-none w-full px-2 py-1 rounded-2xl bg-slate-200 border-black border-2"
               type="text"
               value={inputSearch}
               placeholder="Search"
@@ -78,7 +78,7 @@ export const HomeScreen = () => {
                 {card.heading}
               </h2>
               <p className="text-gray-600 mt-2">{card.paragraph}</p>
-              <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+              <button className="mt-4 px-4 py-2 bg-black text-white rounded-lg hover:bg-blue-600">
                 {card.btn}
               </button>
             </div>
@@ -88,7 +88,7 @@ export const HomeScreen = () => {
       {filterData.length > 6 && visibleCount < filterData.length && (
         <div className="flex justify-center mt-4">
           <button
-            className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 mb-4"
+            className="px-4 py-2 bg-black text-white rounded-lg hover:bg-green-600 mb-4"
             onClick={handleLearnMore}
           >
             Learn More
