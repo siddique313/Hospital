@@ -21,10 +21,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-cyan-800">
-        <header className="justify-between items-center flex h-28">
-          <div className="ml-4 h-20">
-            <img className="rounded-full h-20 w-20" src={logo} alt="Logo" />
+      <div className="bg-cyan-800 fixed w-full z-10">
+        <header className="justify-between items-center flex h-16">
+          <div className="ml-4 h-20 flex items-center justify-center">
+            <img className="rounded-full h-12 w-12" src={logo} alt="Logo" />
           </div>
           <div className="justify-center self-center items-center flex">
             <input
@@ -37,14 +37,14 @@ const Header = () => {
           </div>
           <div className="w-1/3">
             <ul className="flex text-white mr-4 justify-around">
-              <li>Home</li>
+              <li className="cursor-pointer">Home</li>
               <li className="cursor-pointer">Gallery</li>
               <li className="cursor-pointer">About</li>
             </ul>
           </div>
         </header>
       </div>
-      <section className="flex flex-wrap mt-10 gap-6 justify-center ">
+
       <Home />
       <section className="flex flex-wrap mt-4 gap-6 justify-center">
         {filterData.slice(0, visibleCount).map((card, index) => (
@@ -82,7 +82,9 @@ const Header = () => {
       <section>
         <Gallery />
       </section>
-      <About />
+      <section>
+        <About />
+      </section>
     </>
   );
 };
