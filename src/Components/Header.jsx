@@ -1,10 +1,11 @@
 import { useState } from "react";
 import logo from "../assets/logo.jpg";
 import { data } from "../Components/data";
+import Gallery from "./Gallery";
 
 const Header = () => {
   const [inputSearch, setInputSearch] = useState("");
-  const [visibleCount, setVisibleCount] = useState(6);
+  const [visibleCount, setVisibleCount] = useState(3);
 
   const filterData = data.filter((curdata) =>
     curdata.heading.toLowerCase().includes(inputSearch.toLowerCase())
@@ -30,10 +31,16 @@ const Header = () => {
               onChange={(e) => setInputSearch(e.target.value)}
             />
           </div>
-          <div></div>
+          <div className="w-1/3">
+            <ul className="flex text-white mr-4 justify-around">
+              <li>Home</li>
+              <li className="cursor-pointer">Gallery</li>
+              <li className="cursor-pointer">About</li>
+            </ul>
+          </div>
         </header>
       </div>
-      <section className="flex flex-wrap mt-4 gap-6 justify-center">
+      <section className="flex flex-wrap mt-10 gap-6 justify-center ">
         {filterData.slice(0, visibleCount).map((card, index) => (
           <div
             key={index}
@@ -66,6 +73,9 @@ const Header = () => {
           </button>
         </div>
       )}
+      <section>
+        <Gallery />
+      </section>
     </>
   );
 };
