@@ -1,10 +1,9 @@
-import React from "react";
-import Header from "./Components/Header";
+import { HomeScreen } from "./Components/HomeScreen";
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <HomeScreen />
     </div>
   );
 };
