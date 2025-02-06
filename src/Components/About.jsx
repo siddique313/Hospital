@@ -8,7 +8,8 @@ const About = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "lightgreen",
+        backgroundColor: "black",
+        color: "white",
         height: "180px",
       }}
     >
@@ -18,7 +19,6 @@ const About = () => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          // alignSelf: "center",
           textAlign: "center",
           alignItems: "center",
         }}
@@ -33,15 +33,18 @@ const About = () => {
             alignSelf: "center",
             alignItems: "center",
           }}
+          q
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste a
-          quisquam enim perferendis corporis pariatur repellat vitae modi
-          eligendi obcaecati quasi praesentium aut odit voluptas facilis.
-          Voluptate facilis quis, a impedit sequi minus ipsum cupiditate quo!
-          Eligendi dolorem error impedit, soluta quam, mollitia aspernatur quos
-          fugit omnis quaerat voluptatem labore odio maxime debitis expedita,
-          veritatis ex? Quo saepe libero vel quis, praesentium omnis nihil
-          soluta natus nobis iusto deleniti.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab similique
+          autem tempora dolor maxime quam quisquam temporibus illo eaque! Dolor
+          eveniet dolores fuga delectus harum reprehenderit tempora, vel
+          voluptatibus assumenda beatae, nihil vitae quo iste expedita
+          praesentium nulla! Consequatur ipsa expedita adipisci voluptas.
+          Expedita, nihil. Facere nam, id quibusdam sequi fuga necessitatibus at
+          tempore veniam accusamus maiores sapiente commodi voluptas aspernatur
+          deserunt asperiores cum consectetur repellendus esse sunt totam.
+          Mollitia, adipisci placeat porro laborum sequi totam. Quaerat
+          recusandae corrupti atque.
         </p>
       </div>
     </div>
