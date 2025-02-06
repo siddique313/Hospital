@@ -1,6 +1,8 @@
 import { useState } from "react";
 import logo from "../assets/logo.jpg";
 import { data } from "../Components/data";
+import Home from "./Home";
+import About from "./About";
 
 const Header = () => {
   const [inputSearch, setInputSearch] = useState("");
@@ -33,6 +35,7 @@ const Header = () => {
           <div></div>
         </header>
       </div>
+      <Home />
       <section className="flex flex-wrap mt-4 gap-6 justify-center">
         {filterData.slice(0, visibleCount).map((card, index) => (
           <div
@@ -66,6 +69,7 @@ const Header = () => {
           </button>
         </div>
       )}
+      <About />
     </>
   );
 };
