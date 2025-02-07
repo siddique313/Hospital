@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <div
@@ -33,7 +31,6 @@ const About = () => {
             alignSelf: "center",
             alignItems: "center",
           }}
-          q
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab similique
           autem tempora dolor maxime quam quisquam temporibus illo eaque! Dolor
