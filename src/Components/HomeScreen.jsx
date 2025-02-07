@@ -33,7 +33,7 @@ export const HomeScreen = () => {
           <div className="w-1/3">
             <ul className="flex text-white mr-4 justify-around ">
               <li
-                className="cursor-pointer "
+                className="cursor-pointer hover:bg-white hover:text-black px-4 rounded-md"
                 onClick={() => {
                   window.scrollTo(0, 0);
                 }}
@@ -41,7 +41,7 @@ export const HomeScreen = () => {
                 Home
               </li>
               <li
-                className="cursor-pointer"
+                className="cursor-pointer hover:bg-white hover:text-black px-4 rounded-md "
                 onClick={() => {
                   window.scrollTo(0, 1000);
                 }}
@@ -49,7 +49,7 @@ export const HomeScreen = () => {
                 Gallery
               </li>
               <li
-                className="cursor-pointer"
+                className="cursor-pointer hover:bg-white hover:text-black px-4 rounded-md "
                 onClick={() => {
                   window.scrollTo(0, 2000);
                 }}
