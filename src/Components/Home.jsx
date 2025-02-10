@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../assets/image.jpeg";
 
 const Home = () => {
@@ -8,7 +7,7 @@ const Home = () => {
         display: "flex",
         justifyContent: "center",
         alignSelf: "center",
-        marginTop: "4",
+        paddingTop: "5rem",
       }}
     >
       <img
