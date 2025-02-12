@@ -1,67 +1,45 @@
-import { useState } from "react";
-import logo from "../assets/logo.jpg";
-import { data } from "./data";
-import Gallery from "./Gallery";
-import Home from "./Home";
-import About from "./About";
+import img from "../assets/cropped-AlQaim-Surgical.png";
 export const HomeScreen = () => {
-  const [inputSearch, setInputSearch] = useState("");
-  const [visibleCount, setVisibleCount] = useState(3);
-
-  const filterData = data.filter((curdata) =>
-    curdata.heading.toLowerCase().includes(inputSearch.toLowerCase())
-  );
-  const handleLearnMore = () => {
-    setVisibleCount(filterData.length);
-  };
   return (
     <>
-      <div className="bg-black fixed w-full z-10 scroll-smooth">
-        <header className="justify-between items-center flex h-16">
-          <div className="ml-4 h-20 flex items-center justify-center">
-            <img className="rounded-full h-12 w-12" src={logo} alt="Logo" />
+      <div className=" w-full z-10 scroll-smooth">
+        <header>
+          <div className="justify-between items-center flex h-9 bg-[#208D98] px-20">
+            <div className="text-white">
+              <p>+92 321 7213531</p>
+            </div>
+            <div className="text-white">
+              <p>info@alqaimsurgical.com</p>
+            </div>
           </div>
-          <div className="justify-center self-center items-center flex">
-            <input
-              className="outline-none w-full px-2 py-1 rounded-2xl bg-slate-200 border-black border-2"
-              type="text"
-              value={inputSearch}
-              placeholder="Search"
-              onChange={(e) => setInputSearch(e.target.value)}
-            />
-          </div>
-          <div className="w-1/3">
-            <ul className="flex text-white mr-4 justify-around ">
-              <li
-                className="cursor-pointer hover:bg-white hover:text-black px-4 rounded-md"
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                }}
-              >
-                Home
-              </li>
-              <li
-                className="cursor-pointer hover:bg-white hover:text-black px-4 rounded-md "
-                onClick={() => {
-                  window.scrollTo(0, 1000);
-                }}
-              >
-                Gallery
-              </li>
-              <li
-                className="cursor-pointer hover:bg-white hover:text-black px-4 rounded-md "
-                onClick={() => {
-                  window.scrollTo(0, 2000);
-                }}
-              >
-                About
-              </li>
+          <div>
+            <ul className="flex  justify-between px-10 items-center ">
+              <div>
+                <img className="w-24" src={img} alt="" />
+              </div>
+              <div className="flex gap-7 px-8 ">
+                <li className="cursor-pointer hover:text-blue-400 duration-200">
+                  HOME
+                </li>
+                <li className="cursor-pointer hover:text-blue-400 duration-200">
+                  BLOG
+                </li>
+                <li
+                  className="cursor-pointer hover:text-blue-400 duration-200"
+                  draggable
+                >
+                  OUR PRODUCT
+                </li>
+                <li className="cursor-pointer hover:text-blue-400 duration-200">
+                  CONTACT US
+                </li>
+              </div>
             </ul>
           </div>
         </header>
       </div>
 
-      <Home />
+      {/* <Home />
       <section className="flex flex-wrap mt-4 gap-6 justify-center">
         {filterData.slice(0, visibleCount).map((card, index) => (
           <div
@@ -100,7 +78,7 @@ export const HomeScreen = () => {
       </section>
       <section>
         <About />
-      </section>
+      </section> */}
     </>
   );
 };
