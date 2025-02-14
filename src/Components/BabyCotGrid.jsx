@@ -1,7 +1,11 @@
-import img1 from "../assets/machine19.jpg";
-import img2 from "../assets/machine19.jpg";
-import img3 from "../assets/mindray.jpg";
-import img4 from "../assets/philips.jpg";
+import img1 from "../assets/BABY-COT-1-300x300.jpeg";
+import img2 from "../assets/BABY-COT-2-300x300.jpeg";
+import img3 from "../assets/BABY-COT-3-1-300x300.jpeg";
+import img4 from "../assets/BABY-COT-4-300x300.jpeg";
+import img5 from "../assets/BABY-COT-1-600x600.jpeg";
+import img6 from "../assets/BABY-COT-2-600x600.jpeg";
+import img7 from "../assets/BABY-COT-3-1-600x600.jpeg";
+import img8 from "../assets/BABY-COT-4-600x600.jpeg";
 const products = [
   {
     id: 1,
@@ -41,7 +45,7 @@ const products = [
     originalPrice: "Rs 25,000",
     discountedPrice: "Rs 22,500",
     discount: "-10%",
-    image: img4,
+    image: img5,
   },
   {
     id: 6,
@@ -49,7 +53,7 @@ const products = [
     originalPrice: "Rs 25,000",
     discountedPrice: "Rs 22,500",
     discount: "-10%",
-    image: img4,
+    image: img6,
   },
   {
     id: 7,
@@ -57,7 +61,7 @@ const products = [
     originalPrice: "Rs 25,000",
     discountedPrice: "Rs 22,500",
     discount: "-10%",
-    image: img4,
+    image: img7,
   },
   {
     id: 8,
@@ -65,20 +69,27 @@ const products = [
     originalPrice: "Rs 25,000",
     discountedPrice: "Rs 22,500",
     discount: "-10%",
-    image: img4,
+    image: img8,
   },
 ];
 
 const BabyCotGrid = () => {
   return (
     <div className="container mx-auto p-4 my-11">
-      <h2 className="text-2xl font-bold text-center mb-11">Baby Cot</h2>
+      <div className="flex flex-col items-center justify-center mb-12">
+        <div>
+          <h2 className="text-2xl font-semibold text-center mb-8">Baby Got</h2>
+        </div>
+        <div className="flex gap-1">
+          <div className="w-1 bg-blue-700 h-1"></div>
+          <div className="w-1 bg-blue-700 h-1"></div>
+          <div className="w-1 bg-blue-700 h-1"></div>
+          <div className="w-7 bg-blue-700 h-1"></div>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (
-          <div
-            key={product.id}
-            className="relative bg-white shadow-md rounded-lg p-4"
-          >
+          <div key={product.id} className="relative p-4">
             <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">
               {product.discount}
             </span>

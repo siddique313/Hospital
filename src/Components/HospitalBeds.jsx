@@ -1,7 +1,12 @@
-import img1 from "../assets/machine19.jpg";
-import img2 from "../assets/machine19.jpg";
-import img3 from "../assets/mindray.jpg";
-import img4 from "../assets/philips.jpg";
+import img1 from "../assets/PatientBed1.jpeg";
+import img2 from "../assets/PatientBed2.jpeg";
+import img3 from "../assets/PatientBed3.jpeg";
+import img4 from "../assets/PatientBed4.jpeg";
+import img5 from "../assets/Electric-Patient-Bed1.png";
+import img6 from "../assets/Electric-Patient-Bed2.png";
+import img7 from "../assets/Electric-Patient-Bed3.jpeg";
+import img8 from "../assets/Electric-Patient-Bed4.jpeg";
+
 const beds = [
   {
     id: 1,
@@ -41,7 +46,7 @@ const beds = [
     originalPrice: 27000,
     discountedPrice: 22000,
     discount: 19,
-    image: img4,
+    image: img5,
   },
   {
     id: 5,
@@ -49,7 +54,7 @@ const beds = [
     originalPrice: 27000,
     discountedPrice: 22000,
     discount: 19,
-    image: img4,
+    image: img6,
   },
   {
     id: 7,
@@ -57,7 +62,7 @@ const beds = [
     originalPrice: 27000,
     discountedPrice: 22000,
     discount: 19,
-    image: img4,
+    image: img7,
   },
   {
     id: 8,
@@ -65,16 +70,26 @@ const beds = [
     originalPrice: 27000,
     discountedPrice: 22000,
     discount: 19,
-    image: img4,
+    image: img8,
   },
 ];
 
 export const HospitalBeds = () => {
   return (
     <div className="container mx-auto px-4 py-8 my-11 ">
-      <h2 className="text-2xl font-semibold text-center mb-11">
-        Hospital / Patient Beds
-      </h2>
+      <div className="flex flex-col items-center justify-center mb-12">
+        <div>
+          <h2 className="text-2xl font-semibold text-center mb-8">
+            Hospital / Patient Beds
+          </h2>
+        </div>
+        <div className="flex gap-1">
+          <div className="w-1 bg-blue-700 h-1"></div>
+          <div className="w-1 bg-blue-700 h-1"></div>
+          <div className="w-1 bg-blue-700 h-1"></div>
+          <div className="w-7 bg-blue-700 h-1"></div>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         {beds.map((bed) => (
           <div key={bed.id} className="bg-white p-4 rounded-lg w-full ">
