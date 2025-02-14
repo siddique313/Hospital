@@ -1,3 +1,5 @@
+import SocialApps from "./SocialApps";
+
 export function Footer() {
   return (
     <div>
@@ -129,41 +131,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className=" text-center pt-5 border-t-2 border-[#333]">
-          <p>Copyrights &copy; 2023 AL-Qaim Surgical | All rights reserved.</p>
-          <div className="social-icons">
-            <a
-              className="text-[#9cd8f5] no-underline px-2 hover:text-orange-400"
-              href="#"
-            >
-              &#xf09a;
-            </a>
-            <a
-              className="text-[#9cd8f5] no-underline px-2 hover:text-orange-400"
-              href="#"
-            >
-              &#xf099;
-            </a>
-            <a
-              className="text-[#9cd8f5] no-underline px-2 hover:text-orange-400"
-              href="#"
-            >
-              &#xf16d;
-            </a>
-            <a
-              className="text-[#9cd8f5] no-underline px-2 hover:text-orange-400"
-              href="#"
-            >
-              &#xf08c;
-            </a>
-            <a
-              className="text-[#9cd8f5] no-underline px-2 hover:text-orange-400"
-              href="#"
-            >
-              &#xf167;
-            </a>
-          </div>
-        </div>
+        <SocialApps />
       </footer>
     </div>
   );

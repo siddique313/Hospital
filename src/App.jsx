@@ -9,10 +9,13 @@ import MedicalCategories from "./Components/MedicalCategoruy";
 import ProductsComponent from "./Components/ProductsComponent";
 import {
   BedSideLocker,
-  CrashCart,
   OperationTheatreTable,
   Stool,
   WheelChair,
+  CrashCart,
+  DripStands,
+  InstrumentTrolley,
+  MedicineTrolley,
 } from "./data";
 import BabyCotGrid from "./Components/BabyCotGrid";
 
@@ -34,6 +37,19 @@ const App = () => {
       <ProductsComponent
         productTitle={"Bed Side Locker"}
         CrashCart={BedSideLocker}
+      />
+      <ProductsComponent productTitle={"CrashCart"} CrashCart={CrashCart} />
+      <ProductsComponent
+        productTitle={"Medicine Trolley"}
+        CrashCart={MedicineTrolley}
+      />
+      <ProductsComponent
+        productTitle={"Drip Stands / IV Polet"}
+        CrashCart={DripStands}
+      />
+      <ProductsComponent
+        productTitle={"Instrument Trolley"}
+        CrashCart={InstrumentTrolley}
       />
       <Categories />
       <NeedHelp />
