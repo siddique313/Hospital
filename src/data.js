@@ -22,7 +22,6 @@ import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x
 import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
 import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
 
-
 export const CrashCart = [
   {
     id: 1,
@@ -209,4 +208,3 @@ export const InstrumentTrolley = [
     image: img22,
   },
 ];
-
