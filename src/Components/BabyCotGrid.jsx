@@ -98,13 +98,15 @@ const BabyCotGrid = () => {
               alt={product.name}
               className="w-full h-40 object-cover mb-4 rounded"
             />
-            <h3 className="text-lg font-semibold">{product.name}</h3>
-            <p className="text-gray-500 line-through">
-              {product.originalPrice}
-            </p>
-            <p className="text-xl font-bold text-blue-600">
-              {product.discountedPrice}
-            </p>
+            <h3 className="text-base text-gray-500">{product.name}</h3>
+            <div className="flex gap-3">
+              <p className="text-gray-500 line-through text-sm">
+                {product.originalPrice}
+              </p>
+              <p className="text-sm font-bold text-blue-600">
+                {product.discountedPrice}
+              </p>
+            </div>
           </div>
         ))}
       </div>
