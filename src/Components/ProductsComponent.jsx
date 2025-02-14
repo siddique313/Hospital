@@ -16,23 +16,25 @@ const ProductsComponent = ({ productTitle, CrashCart }) => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {CrashCart?.map((product) => (
-          <div key={product.id} className="relative p-4">
+          <div
+            key={product.id}
+            className="relative p-4 flex flex-col items-center justify-center"
+          >
             <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">
               {product.discount}
-              {product.id}
             </span>
             <img
               src={product.image}
               alt={product.name}
               className="w-full h-40 object-cover mb-4 rounded"
             />
-            <h3 className="text-lg font-semibold">{product.name}</h3>
-            <p className="text-gray-500 line-through">
-              {product.originalPrice}
-            </p>
-            <p className="text-xl font-bold text-blue-600">
-              {product.discountedPrice}
-            </p>
+            <h3 className="text-sm text-gray-500 ">{product.name}</h3>
+            <div className="flex gap-3">
+              <p className="text-gray-500 line-through text-sm">
+                {product.originalPrice}
+              </p>
+              <p className="text-sm text-black">{product.discountedPrice}</p>
+            </div>
           </div>
         ))}
       </div>
