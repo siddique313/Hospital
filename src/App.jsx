@@ -19,8 +19,6 @@ import {
   MedicineTrolley,
 } from "./data";
 
-import { CrashCart } from "./data";
-
 import BabyCotGrid from "./Components/BabyCotGrid";
 
 const App = () => {
