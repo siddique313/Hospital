@@ -7,6 +7,7 @@ import { Footer } from "./Components/Footer";
 import { HospitalBeds } from "./Components/HospitalBeds";
 import MedicalCategories from "./Components/MedicalCategoruy";
 import ProductsComponent from "./Components/ProductsComponent";
+
 import {
   BedSideLocker,
   OperationTheatreTable,
@@ -17,6 +18,9 @@ import {
   InstrumentTrolley,
   MedicineTrolley,
 } from "./data";
+
+import { CrashCart } from "./data";
+
 import BabyCotGrid from "./Components/BabyCotGrid";
 
 const App = () => {
@@ -39,6 +43,7 @@ const App = () => {
         CrashCart={BedSideLocker}
       />
       <ProductsComponent productTitle={"CrashCart"} CrashCart={CrashCart} />
+
       <ProductsComponent
         productTitle={"Medicine Trolley"}
         CrashCart={MedicineTrolley}
@@ -51,6 +56,7 @@ const App = () => {
         productTitle={"Instrument Trolley"}
         CrashCart={InstrumentTrolley}
       />
+
       <Categories />
       <NeedHelp />
       <SellingProduct />

@@ -25,6 +25,7 @@ import img38 from "./assets/bed-side-locer-200x200.jpeg";
 import img39 from "./assets/bed-side-locer-300x300.jpeg";
 import img40 from "./assets/bed-side-locer-600x600.jpeg";
 import img41 from "./assets/bed-side-locer-768x768.jpeg";
+
 import img9 from "./assets/Medicine-Trolley-1-300x300.jpeg";
 import img10 from "./assets/Medicine-Trolley-2-300x300.jpeg";
 import img11 from "./assets/Medicine-Trolley-3-300x300.jpeg";
@@ -35,6 +36,12 @@ import img15 from "./assets/IV-POLE-3-200x200.jpeg";
 import img16 from "./assets/IV-POLE-4-200x200.jpeg";
 import img17 from "./assets/IV-POLE-5-200x200.jpeg";
 import img18 from "./assets/IV-POLE-6-200x200.jpeg";
+import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
+import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
+import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
+import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
+
+
 export const CrashCart = [
   {
     id: 1,
@@ -437,3 +444,4 @@ export const InstrumentTrolley = [
     image: img22,
   },
 ];
+
