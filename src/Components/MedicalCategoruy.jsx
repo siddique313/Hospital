@@ -5,7 +5,7 @@ import img1 from "../assets/mic2.png";
 
 const MedicalCategories = () => {
   return (
-    <div className="container grid w-full  items-center justify-center xl:flex grid-cols-1 md:grid-cols-3  gap-6">
+    <div className="container w-full  items-center justify-center grid grid-cols-1 md:grid-cols-3  gap-6 mx-24">
       <div
         className={`p-6 rounded-2xl text-white flex flex-col shadow-lg bg-[#609386] h-[580px] max-w-72 `}
       >
