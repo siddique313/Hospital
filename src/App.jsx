@@ -4,9 +4,11 @@ import Categories from "./Components/Categories";
 import NeedHelp from "./Components/NeedHelp";
 import SellingProduct from "./Components/SellingProduct";
 import { Footer } from "./Components/Footer";
-import { HospitalBeds } from "./Components/Beds";
-import BabyCotGrid from "./Components/BabyCotGrid";
+import { HospitalBeds } from "./Components/HospitalBeds";
 import MedicalCategories from "./Components/MedicalCategoruy";
+import ProductsComponent from "./Components/ProductsComponent";
+import { CrashCart } from "./data";
+import BabyCotGrid from "./Components/BabyCotGrid";
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
       <MedicalCategories />
       <HospitalBeds />
       <BabyCotGrid />
+      <ProductsComponent productTitle={"CrashCart"} CrashCart={CrashCart} />
       <Categories />
       <NeedHelp />
       <SellingProduct />
