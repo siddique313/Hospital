@@ -3,13 +3,15 @@ import "./MC.css";
 
 const MedicalCategories = () => {
   return (
-    <div className="container w-full items-center justify-center grid grid-cols-1 md:grid-cols-3 gap-6 mx-24">
+    <div className="flex  gap-6 items-center justify-center px-32 mb-40">
       <div
-        className={`p-6 rounded-2xl text-white flex flex-col shadow-lg bg-[#609386] h-[580px] max-w-72`}
+        className={`p-6 rounded-[30px] text-white flex flex-col shadow-lg bg-[#609386] h-[580px] gap-4`}
       >
-        <div className="max-h-40">
-          <h3 className="text-white text-lg font-thin">Laboratory Equipment</h3>
-          <p className="text-xl font-bold mt-2 text-wrap text-white">
+        <div className="max-h-40  ">
+          <h3 className="text-white text-lg font-thin mb-6">
+            Laboratory Equipment
+          </h3>
+          <p className="text-2xl font-bold mt-2 text-wrap text-white">
             Every type of Laboratory Equipment is available
           </p>
         </div>
@@ -28,11 +30,11 @@ const MedicalCategories = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 w-full max-w-[500px] items-center justify-center ">
         <div
-          className={`p-6 rounded-2xl text-black flex shadow-lg bg-[#DFDFDF] h-[280px]`}
+          className={`p-6 rounded-2xl flex shadow-lg bg-[#DFDFDF] h-[280px]`}
         >
-          <div className="max-h-40">
+          <div className="max-h-40 flex  flex-col   h-full">
             <h3 className="text-black text-lg font-thin">
               Laboratory Equipment
             </h3>
@@ -56,17 +58,17 @@ const MedicalCategories = () => {
           </div>
         </div>
         <div
-          className={`p-6 rounded-2xl text-black flex shadow-lg bg-[#E42E49] h-[280px]`}
+          className={`p-6 rounded-2xl flex shadow-lg bg-[#E42E49] h-[280px]`}
         >
-          <div className="max-h-40">
-            <h3 className="text-black text-lg font-thin">
+          <div className="max-h-40 flex flex-col gap-4">
+            <h3 className="text-white text-lg font-thin">
               Laboratory Equipment
             </h3>
-            <p className="text-xl font-bold mt-2 text-wrap text-black">
+            <p className="text-xl font-bold text-wrap text-white">
               Every type of Laboratory Equipment is available
             </p>
             <button
-              className={`mt-4 py-2 px-4 rounded-3xl text-white duration-300 hover:text-black font-medium bg-black hover:bg-white`}
+              className={` py-2 px-4 rounded-3xl text-white duration-300 hover:text-black font-medium bg-black hover:bg-white`}
             >
               Shop By Category
             </button>
@@ -83,9 +85,9 @@ const MedicalCategories = () => {
         </div>
       </div>
       <div
-        className={`p-6 rounded-2xl text-black flex flex-col shadow-lg bg-[#000] h-[580px] max-w-72`}
+        className={`p-6 rounded-2xl text-black flex flex-col shadow-lg bg-[#000] h-[580px]  gap-4`}
       >
-        <div className="max-h-40">
+        <div className="max-h-40 flex gap-5 flex-col">
           <h3 className="text-white text-lg font-thin">Laboratory Equipment</h3>
           <p className="text-xl font-bold mt-2 text-wrap text-white">
             Every type of Laboratory Equipment is available

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import img from "../assets/logo.jpg";
 export const HomeScreen = () => {
   return (
@@ -18,21 +19,28 @@ export const HomeScreen = () => {
                 <img className="w-32" src={img} />
               </div>
               <div className="flex gap-6 ">
-                <li className="cursor-pointer hover:text-blue-400 duration-200">
-                  HOME
-                </li>
+                <NavLink>
+                  <li className="cursor-pointer hover:text-blue-400 duration-200">
+                    HOME
+                  </li>
+                </NavLink>
                 <li className="cursor-pointer hover:text-blue-400 duration-200">
                   BLOG
                 </li>
-                <li
-                  className="cursor-pointer hover:text-blue-400 duration-200"
-                  draggable
-                >
-                  OUR PRODUCT
-                </li>
-                <li className="cursor-pointer hover:text-blue-400 duration-200">
-                  CONTACT US
-                </li>
+                <NavLink to={"ourProduct"}>
+                  {" "}
+                  <li
+                    className="cursor-pointer hover:text-blue-400 duration-200"
+                    draggable
+                  >
+                    OUR PRODUCT
+                  </li>
+                </NavLink>
+                <NavLink to={"contact"}>
+                  <li className="cursor-pointer hover:text-blue-400 duration-200">
+                    CONTACT US
+                  </li>
+                </NavLink>
               </div>
             </ul>
           </div>
