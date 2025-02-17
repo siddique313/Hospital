@@ -40,10 +40,19 @@ import img18 from "./assets/IV-POLE-6-200x200.jpeg";
 // import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
 // import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
 // import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
-import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
-import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
-import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
-import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
+import img42 from "./assets/Product1.png";
+import img43 from "./assets/Product2.png";
+import img44 from "./assets/Product3.png";
+import img45 from "./assets/Product4.png";
+import img46 from "./assets/Product5.png";
+import img47 from "./assets/Product6.png";
+import img48 from "./assets/Product7.png";
+import img49 from "./assets/Product8.png";
+import img50 from "./assets/Product9.png";
+import img51 from "./assets/Product10.png";
+import img52 from "./assets/Product11.png";
+import img53 from "./assets/Product12.png";
+import img54 from "./assets/Product13.png";
 
 export const CrashCart = [
   {
@@ -445,5 +454,73 @@ export const InstrumentTrolley = [
     discountedPrice: "16,500",
     discount: "-8%",
     image: img22,
+  },
+];
+
+export const ProductData = [
+  {
+    image: img42,
+    name: "C-ARM",
+    rate: "(5)",
+  },
+  {
+    image: img43,
+    name: "C-ARM",
+    rate: "(5)",
+  },
+  {
+    image: img44,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img45,
+    name: "MONITOR STAND",
+    rate: "(9)",
+  },
+  {
+    image: img46,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img47,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img48,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img49,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img50,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img51,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img52,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img53,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
+  },
+  {
+    image: img54,
+    name: "EQUIPMENT TROLLEY ",
+    rate: "(5)",
   },
 ];
