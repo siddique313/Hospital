@@ -1,10 +1,19 @@
+import { useState } from "react";
 import { NavLink } from "react-router";
 import img from "../assets/logo.jpg";
+import Slider from "./Slider";
+
 export const HomeScreen = () => {
+  const [sidebarVisible, setSidebarVisible] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarVisible(!sidebarVisible);
+  };
+
   return (
     <>
-      <div className=" w-full scroll-smooth">
-        <header className="">
+      <div className="w-full scroll-smooth">
+        <header>
           <div className="justify-between items-center flex h-9 bg-[#208D98] px-20">
             <div className="text-white">
               <p>Elia surgical</p>
@@ -14,12 +23,23 @@ export const HomeScreen = () => {
             </div>
           </div>
           <div className="px-10 pt-2">
-            <ul className="flex  justify-between  items-center ">
+            <ul className="flex justify-between items-center">
               <div className="">
-                <img className="w-32" src={img} />
+                <img className="w-32" src={img} alt="logo" />
               </div>
-              <div className="flex gap-6 ">
-                <NavLink>
+              <div
+                className="flex md:hidden flex-col gap-1 cursor-pointer"
+                onClick={toggleSidebar}
+              >
+                <div className="w-6 h-0.5 bg-blue-700"></div>
+                <div className="w-6 h-0.5 bg-blue-700"></div>
+                <div className="w-6 h-0.5 bg-blue-700"></div>
+              </div>
+
+              {sidebarVisible && <Slider />}
+
+              <div className="hidden md:flex gap-6">
+                <NavLink to="/">
                   <li className="cursor-pointer hover:text-blue-400 duration-200">
                     HOME
                   </li>
@@ -30,10 +50,7 @@ export const HomeScreen = () => {
                   </li>
                 </NavLink>
                 <NavLink to={"ourProduct"}>
-                  <li
-                    className="cursor-pointer hover:text-blue-400 duration-200"
-                    draggable
-                  >
+                  <li className="cursor-pointer hover:text-blue-400 duration-200">
                     OUR PRODUCT
                   </li>
                 </NavLink>
