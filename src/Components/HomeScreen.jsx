@@ -24,11 +24,12 @@ export const HomeScreen = () => {
                     HOME
                   </li>
                 </NavLink>
-                <li className="cursor-pointer hover:text-blue-400 duration-200">
-                  BLOG
-                </li>
+                <NavLink to={"About"}>
+                  <li className="cursor-pointer hover:text-blue-400 duration-200">
+                    ABOUT
+                  </li>
+                </NavLink>
                 <NavLink to={"ourProduct"}>
-                  {" "}
                   <li
                     className="cursor-pointer hover:text-blue-400 duration-200"
                     draggable

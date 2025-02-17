@@ -40,10 +40,10 @@ import img18 from "./assets/IV-POLE-6-200x200.jpeg";
 // import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
 // import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
 // import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
-import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
-import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
-import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
-import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
+// import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
+// import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
+// import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
+// import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
 
 export const CrashCart = [
   {
