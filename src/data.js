@@ -40,6 +40,12 @@ import img18 from "./assets/IV-POLE-6-200x200.jpeg";
 // import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
 // import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
 // import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
+<<<<<<< HEAD
+// import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
+// import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
+// import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
+// import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
+=======
 import img42 from "./assets/Product1.png";
 import img43 from "./assets/Product2.png";
 import img44 from "./assets/Product3.png";
@@ -53,6 +59,7 @@ import img51 from "./assets/Product10.png";
 import img52 from "./assets/Product11.png";
 import img53 from "./assets/Product12.png";
 import img54 from "./assets/Product13.png";
+>>>>>>> c8f4eea451baf81dddb7a3e85af2866032810140
 
 export const CrashCart = [
   {

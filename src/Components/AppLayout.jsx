@@ -16,6 +16,7 @@ import {
 import Categories from "./Categories";
 import NeedHelp from "./NeedHelp";
 import SellingProduct from "./SellingProduct";
+import About from "./About";
 
 export const AppLayout = () => {
   return (
@@ -50,6 +51,7 @@ export const AppLayout = () => {
       <Categories />
       <NeedHelp />
       <SellingProduct />
+      <About />
     </>
   );
 };
