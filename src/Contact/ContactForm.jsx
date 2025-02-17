@@ -14,10 +14,11 @@ export default function ContactForm() {
       validationSchema: SignUpSchema,
       onSubmit: (value) => {
         console.log(value);
-        // value.confirm_password = "";
-        // value.email = "";
-        // value.name = "";
-        // value.password = "";
+        value.confirm_password = "";
+        value.email = "";
+        value.name = "";
+        value.password = "";
+        alert("successfully submitted");
       },
     });
   return (
