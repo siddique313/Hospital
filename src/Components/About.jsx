@@ -5,7 +5,7 @@ function About() {
         <div className="border-l-4 border-blue-800 ml-4">
           <div className="w-13 ml-2">
             <h1 className="font-extrabold">Welcome to </h1>
-            <h1 className="font-extrabold ">M. Haider</h1>
+            <h1 className="font-extrabold ">Ali Haider</h1>
             <h1 className="font-extrabold "> Surgical</h1>
             <p>Your Complete Medical Equipment Solutions</p>
           </div>
