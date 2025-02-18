@@ -1,7 +1,7 @@
-import img1 from "../assets/mic2.png";
-import img2 from "../assets/Anesthesia-Machine.png";
-import img3 from "../assets/Hospital-Bed.png";
-import img4 from "../assets/Mechanical-Ventilator-PNG-Image.png";
+import img1 from "../assets/baby1.jpg";
+import img2 from "../assets/baby1.jpg";
+import img3 from "../assets/baby1.jpg";
+import img4 from "../assets/baby1.jpg";
 
 import "./MC.css";
 
@@ -29,7 +29,7 @@ const MedicalCategories = () => {
           <img
             id="treeLeaves"
             src={img2}
-            className="h-44 mt-4 absolute top-32 max-w-full"
+            className="h-44 mt-4 absolute top-32 max-w-full bg-transparent"
             alt="Laboratory Equipment"
           />
         </div>

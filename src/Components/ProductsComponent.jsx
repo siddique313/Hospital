@@ -1,4 +1,4 @@
-const ProductsComponent = ({ productTitle, CrashCart }) => {
+const ProductsComponent = ({ productTitle, dataName }) => {
   return (
     <div className="container mx-auto p-4 my-11">
       <div className="flex flex-col items-center justify-center mb-12">
@@ -15,7 +15,7 @@ const ProductsComponent = ({ productTitle, CrashCart }) => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {CrashCart?.map((product) => (
+        {dataName?.map((product) => (
           <div
             key={product.id}
             className="relative p-4 flex flex-col items-center justify-center"

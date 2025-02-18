@@ -1,11 +1,11 @@
-import img1 from "../assets/BABY-COT-1-300x300.jpeg";
-import img2 from "../assets/BABY-COT-2-300x300.jpeg";
-import img3 from "../assets/BABY-COT-3-1-300x300.jpeg";
-import img4 from "../assets/BABY-COT-4-300x300.jpeg";
-import img5 from "../assets/BABY-COT-1-600x600.jpeg";
-import img6 from "../assets/BABY-COT-2-600x600.jpeg";
-import img7 from "../assets/BABY-COT-3-1-600x600.jpeg";
-import img8 from "../assets/BABY-COT-4-600x600.jpeg";
+import img1 from "../assets/baby1.jpg";
+import img2 from "../assets/baby2.jpg";
+import img3 from "../assets/baby3.jpg";
+import img4 from "../assets/baby4.jpg";
+import img5 from "../assets/baby5.jpg";
+import img6 from "../assets/baby6.jpg";
+import img7 from "../assets/baby7.avif";
+import img8 from "../assets/baby8.jpg";
 const products = [
   {
     id: 1,

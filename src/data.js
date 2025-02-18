@@ -1,63 +1,49 @@
-import img1 from "./assets/BABY-COT-1-300x300.jpeg";
-import img2 from "./assets/BABY-COT-1-600x600.jpeg";
-import img3 from "./assets/BABY-COT-2-300x300.jpeg";
-import img4 from "./assets/BABY-COT-2-600x600.jpeg";
-import img5 from "./assets/BABY-COT-3-1-300x300.jpeg";
-import img6 from "./assets/BABY-COT-3-1-600x600.jpeg";
-import img7 from "./assets/BABY-COT-4-300x300.jpeg";
-import img8 from "./assets/BABY-COT-4-600x600.jpeg";
-import img19 from "./assets/STOOL-4-768x768.jpeg";
-import img20 from "./assets/STOOL-5-768x768.jpeg";
-import img21 from "./assets/STOOL-6-768x768.jpeg";
-import img22 from "./assets/STOOL-7-768x768.jpeg";
-import img23 from "./assets/STOOL-4-1024x1024.jpeg";
-import img24 from "./assets/STOOL-5-1024x1024.jpeg";
-import img25 from "./assets/STOOL-6-1024x1024.jpeg";
-import img26 from "./assets/STOOL-6-768x768.jpeg";
-import img27 from "./assets/Wheel-Chair-2-600x600.jpeg";
-import img28 from "./assets/Wheel-Chair-3-200x200.jpeg";
-import img29 from "./assets/Wheel-Chair-3-600x600.jpeg";
-import img30 from "./assets/Wheel-Chair-4-200x200.jpeg";
-import img31 from "./assets/Wheel-Chair-5-200x200.jpeg";
-import img32 from "./assets/Wheel-Chair-5-600x600.jpeg";
-import img33 from "./assets/Wheel-Chair-6-200x200.jpeg";
-import img38 from "./assets/bed-side-locer-200x200.jpeg";
-import img39 from "./assets/bed-side-locer-300x300.jpeg";
-import img40 from "./assets/bed-side-locer-600x600.jpeg";
-import img41 from "./assets/bed-side-locer-768x768.jpeg";
-
-import img9 from "./assets/Medicine-Trolley-1-300x300.jpeg";
-import img10 from "./assets/Medicine-Trolley-2-300x300.jpeg";
-import img11 from "./assets/Medicine-Trolley-3-300x300.jpeg";
-import img12 from "./assets/Medicine-Trolley-4-300x300.jpeg";
-import img13 from "./assets/IV-POLE-1-200x200.jpeg";
-import img14 from "./assets/IV-POLE-2-200x200.jpeg";
-import img15 from "./assets/IV-POLE-3-200x200.jpeg";
-import img16 from "./assets/IV-POLE-4-200x200.jpeg";
-import img17 from "./assets/IV-POLE-5-200x200.jpeg";
-import img18 from "./assets/IV-POLE-6-200x200.jpeg";
-// import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
-// import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
-// import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
-// import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
-// import img19 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-150x150.jpeg";
-// import img20 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-200x200.jpeg";
-// import img21 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-300x300.jpeg";
-// import img22 from "./assets/WhatsApp-Image-2023-12-31-at-11.07.36-PM-1-copy-600x600.jpeg";
-import img42 from "./assets/Product1.png";
-import img43 from "./assets/Product2.png";
-import img44 from "./assets/Product3.png";
-import img45 from "./assets/Product4.png";
-import img46 from "./assets/Product5.png";
-import img47 from "./assets/Product6.png";
-import img48 from "./assets/Product7.png";
-import img49 from "./assets/Product8.png";
-import img50 from "./assets/Product9.png";
-import img51 from "./assets/Product10.png";
-import img52 from "./assets/Product11.png";
-import img53 from "./assets/Product12.png";
-import img54 from "./assets/Product13.png";
-
+import img1 from "./assets/cart1.jpg";
+import img2 from "./assets/cart2.jpg";
+import img3 from "./assets/cart3.jpg";
+import img4 from "./assets/cart4.jpg";
+import img5 from "./assets/cart5.webp";
+import img6 from "./assets/cart6.jpg";
+import img9 from "./assets/trolley1.jpg";
+import img10 from "./assets/trolley2.webp";
+import img11 from "./assets/trolley3.jpg";
+import img12 from "./assets/trolley4.jpg";
+import img13 from "./assets/pole1.webp";
+import img14 from "./assets/pole2.jpg";
+import img15 from "./assets/pole3.jpg";
+import img16 from "./assets/pole4.jpg";
+import img17 from "./assets/pole5.jpg";
+import img18 from "./assets/pole6.jpg";
+import img19 from "./assets/stool1.jpg";
+import img20 from "./assets/stool2.jpg";
+import img21 from "./assets/stool3.jpg";
+import img22 from "./assets/stool4.jpg";
+import img23 from "./assets/stool5.jpg";
+import img24 from "./assets/stool6.jpg";
+import img25 from "./assets/stool7.webp";
+import img26 from "./assets/stool8.webp";
+import img27 from "./assets/wheel1.avif";
+import img28 from "./assets/wheel2.avif";
+import img29 from "./assets/wheel3.avif";
+import img30 from "./assets/wheel4.avif";
+import img31 from "./assets/wheel5.jpg";
+import img32 from "./assets/wheel6.avif";
+import img38 from "./assets/side1.webp";
+import img39 from "./assets/side2.webp";
+import img40 from "./assets/side3.avif";
+import img41 from "./assets/side4.jpg";
+import op1 from "./assets/ot1.jpg";
+import op2 from "./assets/ot2.jpeg";
+import op3 from "./assets/ot8.jpeg";
+import op4 from "./assets/ot4.avif";
+import op5 from "./assets/ot5.jpg";
+import op6 from "./assets/ot6.webp";
+import op7 from "./assets/ot7.jpeg";
+import op8 from "./assets/ot8.jpeg";
+import instrumentImg1 from "./assets/tyre1.webp";
+import instrumentImg2 from "./assets/tyre2.webp";
+import instrumentImg3 from "./assets/tyre3.jpg";
+import instrumentImg4 from "./assets/tyre4.jpg";
 export const CrashCart = [
   {
     id: 1,
@@ -115,7 +101,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img1,
+    image: op1,
   },
   {
     id: 2,
@@ -123,7 +109,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img2,
+    image: op2,
   },
   {
     id: 3,
@@ -131,7 +117,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img3,
+    image: op3,
   },
   {
     id: 4,
@@ -139,7 +125,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img4,
+    image: op4,
   },
   {
     id: 5,
@@ -147,7 +133,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img5,
+    image: op5,
   },
   {
     id: 6,
@@ -155,7 +141,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img6,
+    image: op6,
   },
   {
     id: 7,
@@ -163,7 +149,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img7,
+    image: op7,
   },
   {
     id: 8,
@@ -171,7 +157,7 @@ export const OperationTheatreTable = [
     originalPrice: " 125,000",
     discountedPrice: "112,000",
     discount: "-49%",
-    image: img8,
+    image: op8,
   },
 ];
 export const Stool = [
@@ -296,14 +282,6 @@ export const WheelChair = [
     discountedPrice: "112,000",
     discount: "-49%",
     image: img32,
-  },
-  {
-    id: 8,
-    name: "TrumpF Mars – Premium Electric OT Table – Made in Germany",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img33,
   },
 ];
 
@@ -433,7 +411,7 @@ export const InstrumentTrolley = [
     originalPrice: "9,500",
     discountedPrice: "8,500",
     discount: "-11%",
-    image: img19,
+    image: instrumentImg1,
   },
   {
     id: 19,
@@ -441,7 +419,7 @@ export const InstrumentTrolley = [
     originalPrice: "6,000",
     discountedPrice: "4,500",
     discount: "-25%",
-    image: img20,
+    image: instrumentImg2,
   },
   {
     id: 20,
@@ -449,7 +427,7 @@ export const InstrumentTrolley = [
     originalPrice: "13,500",
     discountedPrice: "12,500",
     discount: "-7%",
-    image: img21,
+    image: instrumentImg3,
   },
   {
     id: 21,
@@ -457,74 +435,74 @@ export const InstrumentTrolley = [
     originalPrice: "18,00",
     discountedPrice: "16,500",
     discount: "-8%",
-    image: img22,
+    image: instrumentImg4,
   },
 ];
 
-export const ProductData = [
-  {
-    image: img42,
-    name: "C-ARM",
-    rate: "(5)",
-  },
-  {
-    image: img43,
-    name: "C-ARM",
-    rate: "(5)",
-  },
-  {
-    image: img44,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img45,
-    name: "MONITOR STAND",
-    rate: "(9)",
-  },
-  {
-    image: img46,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img47,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img48,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img49,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img50,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img51,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img52,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img53,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-  {
-    image: img54,
-    name: "EQUIPMENT TROLLEY ",
-    rate: "(5)",
-  },
-];
+// export const ProductData = [
+//   {
+//     image: img42,
+//     name: "C-ARM",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img43,
+//     name: "C-ARM",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img44,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img45,
+//     name: "MONITOR STAND",
+//     rate: "(9)",
+//   },
+//   {
+//     image: img46,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img47,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img48,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img49,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img50,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img51,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img52,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img53,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+//   {
+//     image: img54,
+//     name: "EQUIPMENT TROLLEY ",
+//     rate: "(5)",
+//   },
+// ];

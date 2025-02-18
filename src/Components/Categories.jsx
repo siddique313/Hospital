@@ -1,7 +1,7 @@
-import img1 from "../assets/machine3.jpg";
-import img2 from "../assets/machine4.jpg";
-import img3 from "../assets/machine5.jpg";
-import img4 from "../assets/machine6.jpg";
+import img1 from "../assets/ot7.jpeg";
+import img2 from "../assets/pole3.jpg";
+import img3 from "../assets/overbed4.jpg";
+import img4 from "../assets/trolley2.webp";
 function Categories() {
   return (
     <div>
@@ -11,7 +11,7 @@ function Categories() {
       </div>
       <div className=" mt-11  mb-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-7 px-2  ">
         <div className="flex w-full flex-col items-center justify-center borderAnimate">
-          <h1 className="text-2xl mb-3">Hospital Bed</h1>
+          <h1 className="text-2xl mb-3 ">Hospital Bed</h1>
           <div className="w-12 h-0.5 bg-[#91B422] mb-3"></div>
           <div className="truncate w-full">
             <img
