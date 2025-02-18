@@ -12,7 +12,7 @@ export const HomeScreen = () => {
 
   return (
     <>
-      <div className="w-full scroll-smooth">
+      <div className="w-full scroll-smooth ">
         <header>
           <div className="justify-between items-center flex h-9 bg-[#208D98] px-20">
             <div className="text-white">
@@ -36,7 +36,11 @@ export const HomeScreen = () => {
                 <div className="w-6 h-0.5 bg-blue-700"></div>
               </div>
 
-              {sidebarVisible && <Slider />}
+              {/* Slider with transition based on sidebarVisible */}
+              <Slider
+                sidebarVisible={sidebarVisible}
+                setSidebarVisible={setSidebarVisible}
+              />
 
               <div className="hidden md:flex gap-6">
                 <NavLink to="/">

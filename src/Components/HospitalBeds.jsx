@@ -90,9 +90,9 @@ export const HospitalBeds = () => {
           <div className="w-7 bg-blue-700 h-1"></div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
-        {beds.map((bed) => (
-          <div key={bed.id} className="bg-white p-4 rounded-lg w-full ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
+        {beds.map((bed, index) => (
+          <div key={index} className="bg-white p-4 rounded-lg w-full ">
             <div className="relative">
               <img
                 src={bed.image}
