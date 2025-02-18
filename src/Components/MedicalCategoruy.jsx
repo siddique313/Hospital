@@ -1,15 +1,15 @@
-import img1 from "../assets/baby1.jpg";
-import img2 from "../assets/baby1.jpg";
-import img3 from "../assets/baby1.jpg";
-import img4 from "../assets/baby1.jpg";
+import img1 from "../assets/Microscope-PNG-Isolated-Transparent.png";
+import img2 from "../assets/Anesthesia-Machine.png";
+import img3 from "../assets/Hospital-Bed.png";
+import img4 from "../assets/Mechanical-Ventilator-PNG-Image.png";
 
 import "./MC.css";
 
 const MedicalCategories = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-6 items-center justify-center px-6 lg:px-32 mb-40">
+    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-6 items-center justify-center px-12 md:px-6  lg:px-32 mb-40">
       <div
-        className={`p-6 rounded-[30px] text-white flex flex-col shadow-lg bg-[#609386] h-[580px] gap-4 w-full max-w-[350px]`}
+        className={`p-6 rounded-[30px] text-white flex flex-col shadow-lg bg-[#609386] h-[580px] gap-4 md:w-[350px] w-full `}
       >
         <div className="max-h-40">
           <h3 className="text-white text-lg font-thin mb-6">
@@ -29,15 +29,15 @@ const MedicalCategories = () => {
           <img
             id="treeLeaves"
             src={img2}
-            className="h-44 mt-4 absolute top-32 max-w-full bg-transparent"
+            className="h-32 mt-4 absolute top-32 max-w-full bg-transparent"
             alt="Laboratory Equipment"
           />
         </div>
       </div>
 
-      <div className="flex flex-col gap-8 w-full max-w-[500px] items-center justify-center">
+      <div className="flex flex-col gap-8 w-full max-w-full md:max-w-[500px] items-center justify-center">
         <div
-          className={`p-6 rounded-2xl flex shadow-lg bg-[#DFDFDF] h-[280px]`}
+          className={`p-6 rounded-2xl flex shadow-lg bg-[#DFDFDF] h-[280px] md:w-[350px] w-full`}
         >
           <div className="max-h-40 flex flex-col h-full">
             <h3 className="text-black text-lg font-thin">
@@ -65,7 +65,7 @@ const MedicalCategories = () => {
 
         {/* Third Card */}
         <div
-          className={`p-6 rounded-2xl flex shadow-lg bg-[#E42E49] h-[280px]`}
+          className={`p-6 rounded-2xl flex shadow-lg bg-[#E42E49] h-[280px] md:w-[350px] w-full`}
         >
           <div className="max-h-40 flex flex-col gap-4">
             <h3 className="text-white text-lg font-thin">
@@ -94,7 +94,7 @@ const MedicalCategories = () => {
 
       {/* Fourth Card */}
       <div
-        className={`p-6 rounded-2xl text-black flex flex-col shadow-lg bg-[#000] h-[580px] gap-4 w-full max-w-[350px]`}
+        className={`p-6 rounded-2xl text-black flex flex-col shadow-lg bg-[#000] h-[580px] gap-4 md:w-[350px] w-full`}
       >
         <div className="max-h-40 flex gap-5 flex-col">
           <h3 className="text-white text-lg font-thin">Laboratory Equipment</h3>
@@ -113,7 +113,7 @@ const MedicalCategories = () => {
             id="treeLeaves"
             src={img3}
             alt="Laboratory Equipment"
-            className="h-44 absolute top-36 max-w-full"
+            className="h-32 absolute top-36 max-w-full"
           />
         </div>
       </div>

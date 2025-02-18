@@ -41,28 +41,28 @@ const SellingProduct = () => {
         <div className="w-32 bg-[#91B422] h-0.5"></div>
       </div>
       <div className="overflow-x-auto whitespace-nowrap p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 ">
-        {products.map((product) => {
+        {products.map((product, index) => {
           return (
-            <>
-              {" "}
-              <div className=" border-[#91B422] border-2 rounded-lg p-4 w-full mx-2 relative h-96 flex flex-col items-center justify-center">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="h-48 w-full rounded-md object-cover"
-                />
-                <h3 className="text-sm font-bold mt-2 text-wrap">
-                  {product.name}
-                </h3>
-                <p className="text-gray-400 line-through">
-                  {product.originalPrice}
-                </p>
-                <p className="text-red-500 font-bold">{product.salePrice}</p>
-                <span className="bg-yellow-300 text-xs font-bold px-2 py-1 rounded-md absolute top-2 right-2">
-                  SALE!
-                </span>
-              </div>
-            </>
+            <div
+              key={index}
+              className=" border-[#91B422] border-2 rounded-lg p-4 w-full mx-2 relative h-96 flex flex-col items-center justify-center"
+            >
+              <img
+                src={product.image}
+                alt={product.name}
+                className="h-48 w-full rounded-md object-cover"
+              />
+              <h3 className="text-sm font-bold mt-2 text-wrap">
+                {product.name}
+              </h3>
+              <p className="text-gray-400 line-through">
+                {product.originalPrice}
+              </p>
+              <p className="text-red-500 font-bold">{product.salePrice}</p>
+              <span className="bg-yellow-300 text-xs font-bold px-2 py-1 rounded-md absolute top-2 right-2">
+                SALE!
+              </span>
+            </div>
           );
         })}
       </div>

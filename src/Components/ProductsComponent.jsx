@@ -14,10 +14,10 @@ const ProductsComponent = ({ productTitle, dataName }) => {
           <div className="w-7 bg-blue-700 h-1"></div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {dataName?.map((product) => (
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {dataName?.map((product, index) => (
           <div
-            key={product.id}
+            key={index}
             className="relative p-4 flex flex-col items-center justify-center"
           >
             <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">

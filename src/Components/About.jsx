@@ -42,7 +42,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-3 justify-center self-center w-96 p-5">
+        <div className="flex flex-col gap-3 justify-center self-center md:w-96 w-full md:p-5 p-0 mt-4">
           <h1 className="font-extrabold  hover:text-blue-900 ">
             Manufacturing Hospital Furniture
           </h1>

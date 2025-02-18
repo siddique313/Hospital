@@ -87,9 +87,9 @@ const BabyCotGrid = () => {
           <div className="w-7 bg-blue-700 h-1"></div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {products.map((product) => (
-          <div key={product.id} className="relative p-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {products.map((product, index) => (
+          <div key={index} className="relative p-4">
             <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">
               {product.discount}
             </span>
