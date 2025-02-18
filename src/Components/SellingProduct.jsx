@@ -1,34 +1,34 @@
-import img1 from "../assets/machine10.jpg";
-import img2 from "../assets/machine11.jpg";
-import img3 from "../assets/machine12.jpg";
-import img4 from "../assets/machine13.jpg";
+import img1 from "../assets/vantilator1.webp";
+import img2 from "../assets/wheel1.avif";
+import img3 from "../assets/cardiac6.jpeg";
+import img4 from "../assets/stool8.webp";
 
 const SellingProduct = () => {
   const products = [
     {
       id: 1,
-      name: "WELCHALLYN 530TP VITAL SIGN MONITOR",
+      name: "Hamilton Medical",
       originalPrice: "Rs32,000.00",
       salePrice: "Rs30,000.00",
       image: img1,
     },
     {
       id: 2,
-      name: "WELCHALLYN PROPAQ CS VITAL SIGN MONITOR",
+      name: "Wheel chair",
       originalPrice: "Rs50,000.00",
       salePrice: "Rs48,000.00",
       image: img2,
     },
     {
       id: 3,
-      name: "MINDRAY DATASCOPE DUO MONITOR",
+      name: "Cardiac LED",
       originalPrice: "Rs28,000.00",
       salePrice: "Rs25,000.00",
       image: img3,
     },
     {
       id: 4,
-      name: "PHILIPS INTELLIVUE MP5 CARDIAC MONITOR",
+      name: "patient stool",
       originalPrice: "Rs90,000.00",
       salePrice: "Rs85,000.00",
       image: img4,

@@ -24,28 +24,28 @@ export const AppLayout = () => {
       <MedicalCategories />
       <HospitalBeds />
       <BabyCotGrid />
-      <ProductsComponent productTitle={"Crash Cart"} CrashCart={CrashCart} />
+      <ProductsComponent productTitle={"Crash Cart"} dataName={CrashCart} />
       <ProductsComponent
         productTitle={"Operation Theatre Table"}
-        CrashCart={OperationTheatreTable}
+        dataName={OperationTheatreTable}
       />
-      <ProductsComponent productTitle={"Stool"} CrashCart={Stool} />
-      <ProductsComponent productTitle={"Wheel Chair"} CrashCart={WheelChair} />
+      <ProductsComponent productTitle={"Stool"} dataName={Stool} />
+      <ProductsComponent productTitle={"Wheel Chair"} dataName={WheelChair} />
       <ProductsComponent
         productTitle={"Bed Side Locker"}
-        CrashCart={BedSideLocker}
+        dataName={BedSideLocker}
       />
       <ProductsComponent
         productTitle={"Medicine Trolley"}
-        CrashCart={MedicineTrolley}
+        dataName={MedicineTrolley}
       />
       <ProductsComponent
         productTitle={"Drip Stands / IV Polet"}
-        CrashCart={DripStands}
+        dataName={DripStands}
       />
       <ProductsComponent
         productTitle={"Instrument Trolley"}
-        CrashCart={InstrumentTrolley}
+        dataName={InstrumentTrolley}
       />
       <Categories />
       <NeedHelp />
