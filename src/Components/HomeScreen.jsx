@@ -14,7 +14,7 @@ export const HomeScreen = () => {
     <>
       <div className="w-full scroll-smooth ">
         <header>
-          <div className="justify-between items-center flex h-9 bg-[#208D98] px-20">
+          <div className="justify-between items-center flex h-9 bg-[#208D98] sm:px-20 px-2">
             <div className="text-white">
               <p>Elia surgical</p>
             </div>
@@ -55,7 +55,7 @@ export const HomeScreen = () => {
                 </NavLink>
                 <NavLink to={"ourProduct"}>
                   <li className="cursor-pointer hover:text-blue-400 duration-200">
-                    OUR PRODUCT
+                    SHOP
                   </li>
                 </NavLink>
                 <NavLink to={"contact"}>
