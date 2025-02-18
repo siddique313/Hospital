@@ -14,7 +14,6 @@ import {
   InstrumentTrolley,
 } from "./../data";
 import Categories from "./Categories";
-import NeedHelp from "./NeedHelp";
 import SellingProduct from "./SellingProduct";
 
 export const AppLayout = () => {
@@ -48,7 +47,6 @@ export const AppLayout = () => {
         dataName={InstrumentTrolley}
       />
       <Categories />
-      <NeedHelp />
       <SellingProduct />
     </>
   );
