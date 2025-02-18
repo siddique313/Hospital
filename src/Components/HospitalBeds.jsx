@@ -1,11 +1,11 @@
-import img1 from "../assets/PatientBed1.jpeg";
-import img2 from "../assets/PatientBed2.jpeg";
-import img3 from "../assets/PatientBed3.jpeg";
-import img4 from "../assets/PatientBed4.jpeg";
-import img5 from "../assets/Electric-Patient-Bed1.png";
-import img6 from "../assets/Electric-Patient-Bed2.png";
-import img7 from "../assets/Electric-Patient-Bed3.jpeg";
-import img8 from "../assets/Electric-Patient-Bed4.jpeg";
+import img1 from "../assets/bed1.avif";
+import img2 from "../assets/bed4.jpg";
+import img3 from "../assets/bed2.jpg";
+import img4 from "../assets/bed3.jpg";
+import img5 from "../assets/couch4.jpg";
+import img6 from "../assets/couch1.jpg";
+import img7 from "../assets/couch2.jpg";
+import img8 from "../assets/couch3.webp";
 
 const beds = [
   {

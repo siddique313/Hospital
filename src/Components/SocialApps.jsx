@@ -1,8 +1,8 @@
-import img1 from "../assets/fb-blue.png";
+import img1 from "../assets/facebook.png";
 import img2 from "../assets/mail.png";
-import img3 from "../assets/instagram.png";
-import img4 from "../assets/linkedin.png";
-import img5 from "../assets/telephone.png";
+import img3 from "../assets/Instagram_icon.png";
+import img4 from "../assets/linkdin.png";
+import img5 from "../assets/phone.png";
 import img6 from "../assets/pinterest.png";
 
 export default function SocialApps() {
