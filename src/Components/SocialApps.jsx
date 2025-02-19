@@ -1,7 +1,7 @@
 import img1 from "../assets/facebook.png";
 import img2 from "../assets/mail.png";
 import img3 from "../assets/Instagram_icon.png";
-import img4 from "../assets/linkdin.png";
+
 import img5 from "../assets/phone.png";
 import img6 from "../assets/pinterest.png";
 
@@ -29,14 +29,6 @@ export default function SocialApps() {
           />
           <img
             src={img3}
-            style={{
-              width: 20,
-              height: 20,
-              cursor: "pointer",
-            }}
-          />
-          <img
-            src={img4}
             style={{
               width: 20,
               height: 20,
