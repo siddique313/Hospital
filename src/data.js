@@ -44,6 +44,24 @@ import instrumentImg1 from "./assets/tyre1.webp";
 import instrumentImg2 from "./assets/tyre2.webp";
 import instrumentImg3 from "./assets/tyre3.jpg";
 import instrumentImg4 from "./assets/tyre4.jpg";
+import pimg1 from "./assets/ProductImg/1-1024x1024.png";
+import pimg2 from "./assets/ProductImg/2-1024x1024 (1).png";
+import pimg3 from "./assets/ProductImg/5-1024x1024 (1).png";
+import pimg4 from "./assets/ProductImg/6-1024x1024 (1).png";
+import pimg5 from "./assets/ProductImg/ANESTHESIA-MACHINE-1-1024x1024.png";
+import pimg6 from "./assets/ProductImg/AUTOCLAVE-1024x1024.png";
+import pimg7 from "./assets/ProductImg/BABY-COT-1024x1024 (1).png";
+import pimg8 from "./assets/ProductImg/BED-SIDE-GUARD-1024x1024 (1).png";
+import pimg9 from "./assets/ProductImg/BED-SIDE-LOCKER-1024x1024.png";
+import pimg10 from "./assets/ProductImg/COUCHES-1024x1024 (1).png";
+import pimg11 from "./assets/ProductImg/Crash-Cartt-1024x1024.png";
+import pimg12 from "./assets/ProductImg/CTG-MACHINE-FETAL-MONITOR-1024x1024 (1).png";
+import pimg13 from "./assets/ProductImg/DEFIBRILLATOR-1024x1024.png";
+import pimg14 from "./assets/ProductImg/DELIVERY-TABLE-1024x1024.png";
+import pimg15 from "./assets/ProductImg/ECG-MACHINES-1024x1024.png";
+import pimg16 from "./assets/ProductImg/ELECTRO-SURGICAL-UNIT-1024x1024.png";
+import pimg17 from "./assets/ProductImg/FOOT-STEP-1024x1024.png";
+import pimg18 from "./assets/ProductImg/HOSPITAL-BEDS-1024x1024.png";
 export const CrashCart = [
   {
     id: 1,
@@ -436,5 +454,97 @@ export const InstrumentTrolley = [
     discountedPrice: "16,500",
     discount: "-8%",
     image: instrumentImg4,
+  },
+];
+export const productdata = [
+  {
+    image: pimg1,
+    name: "VITAL SIGN MONITOR  ",
+    rate: "(15)",
+  },
+  {
+    image: pimg2,
+    name: "C-ARM  ",
+    rate: "(4)",
+  },
+  {
+    image: pimg3,
+    name: "EQUIPMENT TROLLEY  ",
+    rate: "(5)",
+  },
+  {
+    image: pimg4,
+    name: "MONITOR STAND  ",
+    rate: "(9)",
+  },
+  {
+    image: pimg5,
+    name: "ANESTHESIA MACHINE  ",
+    rate: "(6)",
+  },
+  {
+    image: pimg6,
+    name: "AUTOCLAVE ",
+    rate: " (5)",
+  },
+  {
+    image: pimg7,
+    name: "BABY COT  ",
+    rate: "(8)",
+  },
+  {
+    image: pimg8,
+    name: "BED SIDE GUARD ",
+    rate: "(1) ",
+  },
+  {
+    image: pimg9,
+    name: "BED SIDE LOCKER ",
+    rate: " (4)",
+  },
+  {
+    image: pimg10,
+    name: "COUCHES  ",
+    rate: "(4)",
+  },
+  {
+    image: pimg11,
+    name: "CRASH CART ",
+    rate: " (6)",
+  },
+  {
+    image: pimg12,
+    name: "CARDIAC MONITOR  ",
+    rate: "(20)",
+  },
+  {
+    image: pimg13,
+    name: "DEFIBRILLATOR ",
+    rate: " (5)",
+  },
+  {
+    image: pimg14,
+    name: "DELIVERY TABLE  ",
+    rate: "(3)",
+  },
+  {
+    image: pimg15,
+    name: "ECG MACHINES  ",
+    rate: "(10)",
+  },
+  {
+    image: pimg16,
+    name: "ELECTRO SURGICAL UNIT  ",
+    rate: "(5)",
+  },
+  {
+    image: pimg17,
+    name: "FOOT STEP  ",
+    rate: "(6)",
+  },
+  {
+    image: pimg18,
+    name: "HOSPITAL BEDS ",
+    rate: " (8)",
   },
 ];

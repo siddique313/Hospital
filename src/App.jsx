@@ -3,6 +3,7 @@ import Layout from "./Components/Layout";
 import { AppLayout } from "./Components/AppLayout";
 import ContactForm from "./Contact/ContactForm";
 import About from "./Components/About";
+import OurProduct from "./Components/OurProduct";
 // import OurProduct from "./Components/OurProduct";
 
 const App = () => {
@@ -23,10 +24,10 @@ const App = () => {
           path: "/about",
           element: <About />,
         },
-        // {
-        //   path: "/ourProduct",
-        //   element: <OurProduct />,
-        // },
+        {
+          path: "/ourProduct",
+          element: <OurProduct />,
+        },
       ],
     },
   ]);
