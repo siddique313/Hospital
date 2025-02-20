@@ -7,12 +7,12 @@ import "./MC.css";
 
 const MedicalCategories = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-6 items-center justify-center px-12 md:px-6  lg:px-32 mb-40">
+    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-6 items-center justify-center px-5 md:px-6  lg:px-12 mb-40">
       <div
-        className={`p-6 rounded-[30px] text-white flex flex-col shadow-lg bg-[#609386] h-[580px] gap-4 md:w-[350px] w-full `}
+        className={`p-6 rounded-[30px] text-white flex flex-col shadow-lg bg-[#609386] h-[400px] sm:h-[580px] gap-4  w-full `}
       >
         <div className="max-h-40">
-          <h3 className="text-white text-lg font-thin mb-6">
+          <h3 className="text-white text-lg font-thin mb-2">
             Laboratory Equipment
           </h3>
           <p className="text-2xl font-bold mt-2 text-wrap text-white">
@@ -29,7 +29,7 @@ const MedicalCategories = () => {
           <img
             id="treeLeaves"
             src={img2}
-            className="h-32 mt-4 absolute top-32 max-w-full bg-transparent"
+            className="sm:h-32 h-20 mt-4 absolute top-7 sm:top-32 max-w-full bg-transparent"
             alt="Laboratory Equipment"
           />
         </div>
@@ -37,7 +37,7 @@ const MedicalCategories = () => {
 
       <div className="flex flex-col gap-8 w-full max-w-full md:max-w-[500px] items-center justify-center">
         <div
-          className={`p-6 rounded-2xl flex shadow-lg bg-[#DFDFDF] h-[280px] md:w-[350px] w-full`}
+          className={`p-6 rounded-2xl flex flex-col sm:flex-row shadow-lg bg-[#DFDFDF] h-[400px] sm:h-[280px]  w-full`}
         >
           <div className="max-h-40 flex flex-col h-full">
             <h3 className="text-black text-lg font-thin">
@@ -58,16 +58,16 @@ const MedicalCategories = () => {
               id="treeLeaves"
               src={img1}
               alt="Laboratory Equipment"
-              className="h-32 mt-4 absolute top-9 max-w-full"
+              className="h-24 sm:h-32 mt-4 absolute top-20 sm:top-9 max-w-full"
             />
           </div>
         </div>
 
         {/* Third Card */}
         <div
-          className={`p-6 rounded-2xl flex shadow-lg bg-[#E42E49] h-[280px] md:w-[350px] w-full`}
+          className={`p-6 rounded-2xl flex flex-col sm:flex-row shadow-lg bg-[#E42E49] h-[400px] sm:h-[280px] w-full`}
         >
-          <div className="max-h-40 flex flex-col gap-4">
+          <div className="max-h-40 flex flex-col gap-1 sm:gap-4">
             <h3 className="text-white text-lg font-thin">
               Laboratory Equipment
             </h3>
@@ -86,7 +86,7 @@ const MedicalCategories = () => {
               id="treeLeaves"
               src={img4}
               alt="Laboratory Equipment"
-              className="h-32 mt-4 absolute top-9 max-w-full"
+              className="h-24 sm:h-32 mt-4 absolute top-20 sm:top-9 max-w-full"
             />
           </div>
         </div>
@@ -94,9 +94,9 @@ const MedicalCategories = () => {
 
       {/* Fourth Card */}
       <div
-        className={`p-6 rounded-2xl text-black flex flex-col shadow-lg bg-[#000] h-[580px] gap-4 md:w-[350px] w-full`}
+        className={`p-6 rounded-2xl text-black flex flex-col shadow-lg bg-[#000] h-[400px] sm:h-[580px] gap-4  w-full`}
       >
-        <div className="max-h-40 flex gap-5 flex-col">
+        <div className="max-h-40 flex gap-1 sm:gap-5 flex-col">
           <h3 className="text-white text-lg font-thin">Laboratory Equipment</h3>
           <p className="text-xl font-bold mt-2 text-wrap text-white">
             Every type of Laboratory Equipment is available
@@ -113,7 +113,7 @@ const MedicalCategories = () => {
             id="treeLeaves"
             src={img3}
             alt="Laboratory Equipment"
-            className="h-32 absolute top-36 max-w-full"
+            className="sm:h-32 h-20 mt-4 absolute top-7 sm:top-32 max-w-full bg-transparent"
           />
         </div>
       </div>
