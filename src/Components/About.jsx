@@ -2,11 +2,11 @@ function About() {
   return (
     <>
       <div className="flex flex-col items-center justify-center p-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2   gap-16 items-center justify-center mt-8">
-          <div className="border-l-4 border-blue-800 ml-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-16 items-center justify-center mt-8">
+          <div className="border-l-4 border-blue-800 ml-{1.5}">
             <div className="w-13 ml-2">
               <h1 className="font-extrabold">Welcome to </h1>
-              <h1 className="font-extrabold ">M. Haider</h1>
+              <h1 className="font-extrabold ">ELIA</h1>
               <h1 className="font-extrabold "> Surgical</h1>
               <p>Your Complete Medical Equipment Solutions</p>
             </div>
@@ -14,9 +14,9 @@ function About() {
           <div className="flex flex-col gap-3 justify-center self-center">
             <h1 className="font-extrabold hover:text-blue-700">About Us</h1>
             <p>
-              M. Haider Surgical is a leading name in the medical industry,
-              serving as both one of the biggest importers of medical equipment
-              and Pakistans number one (#1) and largest manufacturing group of
+              ELIA Surgical is a leading name in the medical industry, serving
+              as both one of the biggest importers of medical equipment and
+              Pakistans number one (#1) and largest manufacturing group of
               Hospital Furniture. With a rich history of excellence, we have
               been a prominent player in the healthcare sector for many years,
               offering a comprehensive range of medical equipment and furniture
@@ -42,7 +42,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-3 justify-center self-center md:w-96 w-full md:p-5 p-0 mt-4">
+        <div className="flex flex-col gap-3 justify-center self-center md:w-96 w-full md:p-5 p-0 mt-14">
           <h1 className="font-extrabold  hover:text-blue-900 ">
             Manufacturing Hospital Furniture
           </h1>

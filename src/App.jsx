@@ -15,6 +15,7 @@ const App = () => {
           path: "/",
           element: <AppLayout />,
         },
+
         {
           path: "/contact",
           element: <ContactForm />,
