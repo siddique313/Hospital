@@ -5,8 +5,7 @@ export default function ContactForm() {
   const initialValues = {
     name: "",
     email: "",
-    password: "",
-    confirm_password: "",
+    textArea: "",
   };
   const { values, errors, handleBlur, handleChange, handleSubmit, touched } =
     useFormik({
@@ -14,16 +13,16 @@ export default function ContactForm() {
       validationSchema: SignUpSchema,
       onSubmit: (value) => {
         console.log(value);
-        value.confirm_password = "";
         value.email = "";
         value.name = "";
-        value.password = "";
-        alert("successfully submitted");
+        value.textArea = "";
       },
     });
   return (
     <div className="flex items-center justify-center h-[100vh] ">
       <form
+        action="https://formsubmit.co/siddiqueali531@email.com"
+        method="POST"
         onSubmit={handleSubmit}
         className="flex flex-col justify-center items-start gap-3 shadow-2xl w-96 px-8 py-7 bg-transparent"
       >
@@ -94,73 +93,40 @@ export default function ContactForm() {
             />
           )}
         </div>
-        <div className="w-full flex flex-col items-start">
-          <label className="mb-2" htmlFor="password">
-            Password
-          </label>
-          {errors.password && touched.password ? (
-            <p className="text-red-600 text-xs">{errors.password}</p>
-          ) : null}
-          {errors.password && touched.password ? (
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="password"
-              autoComplete="off"
-              className="border-2 border-red-600 outline-none rounded-2xl pl-2 py-1 w-full"
-              value={values.password}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          ) : (
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="password"
-              autoComplete="off"
-              className="border-2 border-slate-300 outline-none rounded-2xl pl-2 py-1 w-full"
-              value={values.password}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          )}
+        <div className="w-full h-full">
+          <label htmlFor="">Your FeedBack</label>
+          <textarea
+            name="textArea"
+            placeholder="Your feedback"
+            className="border-2 border-gray-300  max-h-24 w-full pl-2 pt-1 rounded-2xl outline-none "
+            value={values.textArea}
+            onChange={handleChange}
+            onBlur={handleBlur}
+          />
         </div>
-        <div className="w-full flex flex-col items-start">
-          <label className="mb-2" htmlFor="confirm-password">
-            confirm-password
-          </label>
-          {errors.confirm_password && touched.confirm_password ? (
-            <p className="text-red-600 text-xs">{errors.confirm_password}</p>
-          ) : null}
-          {errors.confirm_password && touched.confirm_password ? (
-            <input
-              type="password"
-              name="confirm_password"
-              id="confirm_password"
-              placeholder="confirm_password"
-              autoComplete="off"
-              className="border-2 border-red-600 outline-none rounded-2xl pl-2 py-1 w-full"
-              value={values.confirm_password}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          ) : (
-            <input
-              type="password"
-              name="confirm_password"
-              id="confirm_password"
-              placeholder="confirm_password"
-              autoComplete="off"
-              className="border-2 border-slate-300 outline-none rounded-2xl pl-2 py-1 w-full"
-              value={values.confirm_password}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          )}
-        </div>
-        <button className="w-full bg-black text-white py-1 rounded-2xl text-xl">
+        <button
+          disabled={
+            values.email.length > 0 &&
+            values.name.length > 0 &&
+            values.textArea.length > 0
+              ? false
+              : true
+          }
+          type="submit"
+          className={`w-full ${
+            values.email.length > 0 &&
+            values.name.length > 0 &&
+            values.textArea.length > 0
+              ? "bg-black"
+              : "bg-[#504B38]"
+          } text-white py-1 rounded-2xl text-xl `}
+          onClick={() => {
+            handleSubmit();
+            alert(
+              `hey ${values.name} , ${values.email} successfully submitted`
+            );
+          }}
+        >
           submit
         </button>
       </form>

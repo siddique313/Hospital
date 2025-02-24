@@ -25,7 +25,9 @@ export const HomeScreen = () => {
           <div className="px-10 pt-2">
             <ul className="flex justify-between items-center">
               <div className="">
-                <img className="w-32" src={img} alt="logo" />
+                <NavLink to="/">
+                  <img className="w-32" src={img} alt="logo" />
+                </NavLink>
               </div>
               <div
                 className="flex md:hidden flex-col gap-1 cursor-pointer"
