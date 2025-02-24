@@ -9,7 +9,10 @@ export default function SocialApps() {
   return (
     <div>
       <div className=" text-center pt-5 border-t-2 border-[#333]">
-        <p>Copyrights &copy; 2023 AL-Qaim Surgical | All rights reserved.</p>
+        <p>
+          Copyrights &copy; 2023 <strong>ELIA Surgical</strong> | All rights
+          reserved.
+        </p>
         <div className="social-icons flex flex-row gap-2 justify-center mt-3">
           <img
             src={img1}
