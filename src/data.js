@@ -49,19 +49,14 @@ import pimg2 from "./assets/ProductImg/2-1024x1024 (1).png";
 import pimg3 from "./assets/ProductImg/5-1024x1024 (1).png";
 import pimg4 from "./assets/ProductImg/6-1024x1024 (1).png";
 import pimg5 from "./assets/ProductImg/ANESTHESIA-MACHINE-1-1024x1024.png";
-import pimg6 from "./assets/ProductImg/AUTOCLAVE-1024x1024.png";
 import pimg7 from "./assets/ProductImg/BABY-COT-1024x1024 (1).png";
 import pimg8 from "./assets/ProductImg/BED-SIDE-GUARD-1024x1024 (1).png";
 import pimg9 from "./assets/ProductImg/BED-SIDE-LOCKER-1024x1024.png";
 import pimg10 from "./assets/ProductImg/COUCHES-1024x1024 (1).png";
-import pimg11 from "./assets/ProductImg/Crash-Cartt-1024x1024.png";
 import pimg12 from "./assets/ProductImg/CTG-MACHINE-FETAL-MONITOR-1024x1024 (1).png";
 import pimg13 from "./assets/ProductImg/DEFIBRILLATOR-1024x1024.png";
-import pimg14 from "./assets/ProductImg/DELIVERY-TABLE-1024x1024.png";
 import pimg15 from "./assets/ProductImg/ECG-MACHINES-1024x1024.png";
 import pimg16 from "./assets/ProductImg/ELECTRO-SURGICAL-UNIT-1024x1024.png";
-import pimg17 from "./assets/ProductImg/FOOT-STEP-1024x1024.png";
-import pimg18 from "./assets/ProductImg/HOSPITAL-BEDS-1024x1024.png";
 export const CrashCart = [
   {
     id: 1,
@@ -483,11 +478,6 @@ export const productdata = [
     rate: "(6)",
   },
   {
-    image: pimg6,
-    name: "AUTOCLAVE ",
-    rate: " (5)",
-  },
-  {
     image: pimg7,
     name: "BABY COT  ",
     rate: "(8)",
@@ -507,11 +497,7 @@ export const productdata = [
     name: "COUCHES  ",
     rate: "(4)",
   },
-  {
-    image: pimg11,
-    name: "CRASH CART ",
-    rate: " (6)",
-  },
+
   {
     image: pimg12,
     name: "CARDIAC MONITOR  ",
@@ -522,11 +508,7 @@ export const productdata = [
     name: "DEFIBRILLATOR ",
     rate: " (5)",
   },
-  {
-    image: pimg14,
-    name: "DELIVERY TABLE  ",
-    rate: "(3)",
-  },
+
   {
     image: pimg15,
     name: "ECG MACHINES  ",
@@ -536,15 +518,5 @@ export const productdata = [
     image: pimg16,
     name: "ELECTRO SURGICAL UNIT  ",
     rate: "(5)",
-  },
-  {
-    image: pimg17,
-    name: "FOOT STEP  ",
-    rate: "(6)",
-  },
-  {
-    image: pimg18,
-    name: "HOSPITAL BEDS ",
-    rate: " (8)",
   },
 ];
