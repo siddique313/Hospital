@@ -18,22 +18,22 @@ const ProductsComponent = ({ productTitle, dataName }) => {
         {dataName?.map((product, index) => (
           <div
             key={index}
-            className="relative p-4 flex flex-col items-center justify-center"
+            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center "
           >
-            <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">
-              {product.discount}
-            </span>
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-40 object-cover mb-4 rounded"
-            />
-            <h3 className="text-sm text-gray-500 ">{product.name}</h3>
-            <div className="flex gap-3">
-              <p className="text-gray-500 line-through text-sm">
-                {product.originalPrice}
+            <div className="h-52  flex items-center justify-center">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-full h-60 object-cover mb-4 "
+              />
+            </div>
+            <div className="flex gap-3 flex-col">
+              <h3 className="text-xl text-gray-500 font-bold">
+                {product.name}
+              </h3>
+              <p className="text-gray-500  text-lg ">
+                Price : {product.originalPrice}
               </p>
-              <p className="text-sm text-black">{product.discountedPrice}</p>
             </div>
           </div>
         ))}

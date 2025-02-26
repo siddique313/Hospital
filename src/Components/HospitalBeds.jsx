@@ -1,11 +1,10 @@
-import img1 from "../assets/bed1.avif";
-import img2 from "../assets/bed4.jpg";
-import img3 from "../assets/bed2.jpg";
-import img4 from "../assets/bed3.jpg";
-import img5 from "../assets/couch4.jpg";
-import img6 from "../assets/couch1.jpg";
-import img7 from "../assets/couch2.jpg";
-import img8 from "../assets/couch3.webp";
+import img1 from "../assets/images/bed1.jpg";
+import img2 from "../assets/images/bed2.jpg";
+import img3 from "../assets/images/bed3.jpg";
+import img4 from "../assets/images/bed4.jpg";
+import img5 from "../assets/images/bed5.jpg";
+import img6 from "../assets/images/bed6.jpg";
+import img7 from "../assets/images/bed7.jpg";
 
 const beds = [
   {
@@ -63,14 +62,6 @@ const beds = [
     discountedPrice: 22000,
     discount: 19,
     image: img7,
-  },
-  {
-    id: 8,
-    name: "Fowler Bed Heavy Duty - Hospital Bed - Patient Bed",
-    originalPrice: 27000,
-    discountedPrice: 22000,
-    discount: 19,
-    image: img8,
   },
 ];
 

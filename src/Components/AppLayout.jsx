@@ -4,17 +4,12 @@ import { HospitalBeds } from "./HospitalBeds";
 import BabyCotGrid from "./BabyCotGrid";
 import ProductsComponent from "./ProductsComponent";
 import {
-  CrashCart,
   OperationTheatreTable,
-  Stool,
-  WheelChair,
-  BedSideLocker,
-  MedicineTrolley,
-  DripStands,
-  InstrumentTrolley,
+  Ventilators,
+  BabyIncubators,
+  X_RayMachine,
+  Trolley,
 } from "./../data";
-import Categories from "./Categories";
-import SellingProduct from "./SellingProduct";
 
 export const AppLayout = () => {
   return (
@@ -23,31 +18,21 @@ export const AppLayout = () => {
       <MedicalCategories />
       <HospitalBeds />
       <BabyCotGrid />
-      <ProductsComponent productTitle={"Crash Cart"} dataName={CrashCart} />
       <ProductsComponent
         productTitle={"Operation Theatre Table"}
         dataName={OperationTheatreTable}
       />
-      <ProductsComponent productTitle={"Stool"} dataName={Stool} />
-      <ProductsComponent productTitle={"Wheel Chair"} dataName={WheelChair} />
       <ProductsComponent
-        productTitle={"Bed Side Locker"}
-        dataName={BedSideLocker}
+        productTitle={"Baby Incubators"}
+        dataName={BabyIncubators}
       />
       <ProductsComponent
-        productTitle={"Medicine Trolley"}
-        dataName={MedicineTrolley}
+        productTitle={"X-RAY/Ultrasound Machines"}
+        dataName={X_RayMachine}
       />
-      <ProductsComponent
-        productTitle={"Drip Stands / IV Polet"}
-        dataName={DripStands}
-      />
-      <ProductsComponent
-        productTitle={"Instrument Trolley"}
-        dataName={InstrumentTrolley}
-      />
-      <Categories />
-      <SellingProduct />
+
+      <ProductsComponent productTitle={"Trolley"} dataName={Trolley} />
+      <ProductsComponent productTitle={"Ventilators"} dataName={Ventilators} />
     </>
   );
 };
