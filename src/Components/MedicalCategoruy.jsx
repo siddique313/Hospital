@@ -1,7 +1,7 @@
-import img1 from "../assets/Microscope-PNG-Isolated-Transparent.png";
-import img2 from "../assets/Anesthesia-Machine.png";
-import img3 from "../assets/Hospital-Bed.png";
-import img4 from "../assets/Mechanical-Ventilator-PNG-Image.png";
+import img1 from "../assets/images/comen.jpg";
+import img2 from "../assets/images/bed2.jpg";
+import img3 from "../assets/images/IMG-20250226-WA0042.jpg";
+import img4 from "../assets/images/IMG-20250226-WA0044.jpg";
 
 import "./MC.css";
 

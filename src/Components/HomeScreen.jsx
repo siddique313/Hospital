@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
-import img from "../assets/Logi.jpg";
+import img from "../assets/images/bed1.jpg";
 import Slider from "./Slider";
 
 export const HomeScreen = () => {

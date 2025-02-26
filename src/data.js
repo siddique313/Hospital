@@ -1,522 +1,219 @@
-import img1 from "./assets/crash-ELIA3.jpg";
-import img2 from "./assets/crash-ELIA4.jpg";
-import img3 from "./assets/crash-ELIA1.jpg";
-import img4 from "./assets/crash-ELIA2.jpg";
-import img5 from "./assets/cart5.webp";
-import img6 from "./assets/cart6.jpg";
-import img9 from "./assets/trolley1.jpg";
-import img10 from "./assets/trolley2.webp";
-import img11 from "./assets/trolley3.jpg";
-import img12 from "./assets/trolley4.jpg";
-import img13 from "./assets/pole1.webp";
-import img14 from "./assets/pole2.jpg";
-import img15 from "./assets/pole3.jpg";
-import img16 from "./assets/pole4.jpg";
-import img17 from "./assets/pole5.jpg";
-import img18 from "./assets/pole6.jpg";
-import img19 from "./assets/stool1.jpg";
-import img20 from "./assets/stool2.jpg";
-import img21 from "./assets/stool3.jpg";
-import img22 from "./assets/stool4.jpg";
-import img23 from "./assets/stool5.jpg";
-import img24 from "./assets/stool6.jpg";
-import img25 from "./assets/stool7.webp";
-import img26 from "./assets/stool8.webp";
-import img27 from "./assets/wheel1.avif";
-import img28 from "./assets/wheel2.avif";
-import img29 from "./assets/wheel3.avif";
-import img30 from "./assets/wheel4.avif";
-import img31 from "./assets/wheel5.jpg";
-import img32 from "./assets/wheel6.avif";
-import img38 from "./assets/side1.webp";
-import img39 from "./assets/side2.webp";
-import img40 from "./assets/side3.avif";
-import img41 from "./assets/side4.jpg";
-import op1 from "./assets/ot1.jpg";
-import op2 from "./assets/ot2.jpeg";
-import op3 from "./assets/ot8.jpeg";
-import op4 from "./assets/ot4.avif";
-import op5 from "./assets/ot5.jpg";
-import op6 from "./assets/ot6.webp";
-import op7 from "./assets/ot7.jpeg";
-import op8 from "./assets/ot8.jpeg";
-import instrumentImg1 from "./assets/tyre1.webp";
-import instrumentImg2 from "./assets/tyre2.webp";
-import instrumentImg3 from "./assets/tyre3.jpg";
-import instrumentImg4 from "./assets/tyre4.jpg";
-import pimg1 from "./assets/ProductImg/1-1024x1024.png";
-import pimg2 from "./assets/ProductImg/2-1024x1024 (1).png";
-import pimg3 from "./assets/ProductImg/5-1024x1024 (1).png";
-import pimg4 from "./assets/ProductImg/6-1024x1024 (1).png";
-import pimg5 from "./assets/ProductImg/ANESTHESIA-MACHINE-1-1024x1024.png";
-import pimg7 from "./assets/ProductImg/BABY-COT-1024x1024 (1).png";
-import pimg8 from "./assets/ProductImg/BED-SIDE-GUARD-1024x1024 (1).png";
-import pimg9 from "./assets/ProductImg/BED-SIDE-LOCKER-1024x1024.png";
-import pimg10 from "./assets/ProductImg/COUCHES-1024x1024 (1).png";
-import pimg12 from "./assets/ProductImg/CTG-MACHINE-FETAL-MONITOR-1024x1024 (1).png";
-import pimg13 from "./assets/ProductImg/DEFIBRILLATOR-1024x1024.png";
-import pimg15 from "./assets/ProductImg/ECG-MACHINES-1024x1024.png";
-import pimg16 from "./assets/ProductImg/ELECTRO-SURGICAL-UNIT-1024x1024.png";
-export const CrashCart = [
-  {
-    id: 1,
-    name: "Crash Cart Emergency Trolley (MHS-CC-01)",
-    originalPrice: "30,000",
-    discountedPrice: "24,000",
-    discount: "-18%",
-    image: img1,
-  },
-  {
-    id: 2,
-    name: "Crash Cart Emergency Trolley (MHS-CC-02)",
-    originalPrice: "30,000",
-    discountedPrice: "24,000",
-    discount: "-18%",
-    image: img2,
-  },
-  {
-    id: 3,
-    name: "Crash Cart Emergency Trolley (MHS-CC-03)",
-    originalPrice: "30,000",
-    discountedPrice: "24,000",
-    discount: "-18%",
-    image: img3,
-  },
-  {
-    id: 4,
-    name: "Crash Cart Emergency Trolley (MHS-CC-04)",
-    originalPrice: "30,000",
-    discountedPrice: "24,000",
-    discount: "-18%",
-    image: img4,
-  },
-  {
-    id: 5,
-    name: "Crash Cart Emergency Trolley (MHS-CC-04)",
-    originalPrice: "30,000",
-    discountedPrice: "24,000",
-    discount: "-18%",
-    image: img5,
-  },
-  {
-    id: 6,
-    name: "Crash Cart Emergency Trolley (MHS-CC-04)",
-    originalPrice: "30,000",
-    discountedPrice: "24,000",
-    discount: "-18%",
-    image: img6,
-  },
-];
+import ot1 from "./assets/images/ot-bed1.jpg";
+import ot2 from "./assets/images/ot-bed2.jpg";
+import ot3 from "./assets/images/ot_bed3.jpg";
+import ot4 from "./assets/images/enterprice1.jpg";
+import ot6 from "./assets/images/enterprice3.jpg";
+import ot7 from "./assets/images/elganza.jpg";
+import bi1 from "./assets/images/BabyIncubators1.jpg";
+import bi2 from "./assets/images/BabyIncubators2.jpg";
+import bi3 from "./assets/images/BabyIncubators3.jpg";
+import XR1 from "./assets/images/Xray1.jpg";
+import XR2 from "./assets/images/Xray2.jpg";
+import XR3 from "./assets/images/Xray3.jpg";
+import XR4 from "./assets/images/Xray6.jpg";
+import XR5 from "./assets/images/Xray7.jpg";
+import T1 from "./assets/images/trolley1.jpg";
+import T2 from "./assets/images/trolley2.jpg";
+import T3 from "./assets/images/trolley3.jpeg";
+import v1 from "./assets/images/vent1.jpeg";
+import v2 from "./assets/images/vent2.jpeg";
+import v3 from "./assets/images/vent3.jpeg";
+import v4 from "./assets/images/vent4.jpeg";
+import v5 from "./assets/images/vent5.jpeg";
+import v6 from "./assets/images/vent6.jpeg";
 export const OperationTheatreTable = [
   {
-    id: 1,
-    name: "OT Table in Metal with Powder Painted (OT-T-1)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op1,
+    name: "OT table SS ",
+    originalPrice: " 138,000",
+    image: ot1,
   },
   {
-    id: 2,
-    name: "OT Table SS 5 Parts (OT-T-2)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op2,
+    name: "OT table metal with SS top",
+    originalPrice: " 112,000",
+    image: ot2,
   },
   {
-    id: 3,
-    name: "OT Table SS 5 Parts (Premium) (OT-T-3)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op3,
+    name: "The Hill-Rom VersaCare T3200",
+    originalPrice: " 165,000 (with original mattress)",
+    image: ot3,
   },
   {
-    id: 4,
-    name: "OT Table SS Hydraulics – Manual (OT-T-4)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op4,
+    name: "Huntleigh enterprise XP ",
+    originalPrice: " 130,000",
+    image: ot4,
   },
   {
-    id: 5,
-    name: "OT Table SS 5 Parts (OT-T-6)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op5,
+    name: "Enterprise 5000",
+    originalPrice: " 120,000",
+    image: ot6,
   },
   {
-    id: 6,
-    name: "Maquet Beta Star – Made in Germany – Electric OT Table Premium",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op6,
-  },
-  {
-    id: 7,
-    name: "Marivaara OP-Series Made in Finland – Electric OT Table",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op7,
-  },
-  {
-    id: 8,
-    name: "TrumpF Mars – Premium Electric OT Table – Made in Germany",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: op8,
+    name: "Eleganza ",
+    originalPrice: " 105,000",
+    image: ot7,
   },
 ];
-export const Stool = [
+export const BabyIncubators = [
   {
-    id: 1,
-    name: "Patient Stool (MHS-PS-7)",
-    originalPrice: " 2500",
-    discountedPrice: "1800",
-    discount: "-49%",
-    image: img19,
+    name: " Baby Incubator Drager C2000",
+    originalPrice: "295,000",
+    image: bi1,
   },
   {
-    id: 2,
-    name: "Patient Stool Premium (MHS-PS-6)",
-    originalPrice: " 8,000",
-    discountedPrice: "7,000",
-    discount: "-49%",
-    image: img20,
+    name: "Premium incubator in Girrafe",
+    originalPrice: "380,000",
+    image: bi2,
   },
   {
-    id: 3,
-    name: "Patient Stool (Comfort) (MHS-PS-5)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img21,
-  },
-  {
-    id: 4,
-    name: "OT Table SS Hydraulics – Manual (OT-T-4)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img22,
-  },
-  {
-    id: 5,
-    name: "OT Table SS 5 Parts (OT-T-6)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img23,
-  },
-  {
-    id: 6,
-    name: "Maquet Beta Star – Made in Germany – Electric OT Table Premium",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img24,
-  },
-  {
-    id: 7,
-    name: "Marivaara OP-Series Made in Finland – Electric OT Table",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img25,
-  },
-  {
-    id: 8,
-    name: "TrumpF Mars – Premium Electric OT Table – Made in Germany",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img26,
+    name: "Baby Incubator ATOM V-2100 G",
+    originalPrice: "350,000",
+    image: bi3,
   },
 ];
-export const WheelChair = [
+export const X_RayMachine = [
   {
-    id: 1,
-    name: "OT Table in Metal with Powder Painted (OT-T-1)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img21,
+    name: "320 MAS XRAY",
+    originalPrice: " 750,000",
+    image: XR1,
   },
   {
-    id: 2,
-    name: "OT Table SS 5 Parts (OT-T-2)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img27,
+    name: "Toshiba latest color droppler Xario 100 ",
+    originalPrice: " 1,250,000",
+    image: XR2,
   },
   {
-    id: 3,
-    name: "OT Table SS 5 Parts (Premium) (OT-T-3)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img28,
+    name: "Prime Ultrasound ",
+    originalPrice: "1,250,000",
+    image: XR3,
   },
   {
-    id: 4,
-    name: "OT Table SS Hydraulics – Manual (OT-T-4)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img29,
+    name: "Brand new Ultrasound with convex probe (APOLLO 7)",
+    originalPrice: " 285,000",
+    image: XR4,
   },
   {
-    id: 5,
-    name: "OT Table SS 5 Parts (OT-T-6)",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img30,
-  },
-  {
-    id: 6,
-    name: "Maquet Beta Star – Made in Germany – Electric OT Table Premium",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img31,
-  },
-  {
-    id: 7,
-    name: "Marivaara OP-Series Made in Finland – Electric OT Table",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img32,
+    name: "Brand new GrayScale Ultrasound (Oriel Plus)",
+    originalPrice: " 255,000",
+    image: XR5,
   },
 ];
 
-export const BedSideLocker = [
+export const Trolley = [
   {
-    id: 1,
-    name: "Bed Side Locker U – SS Top",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img38,
+    name: "Crash Trolley ",
+    originalPrice: "24,000,",
+    image: T1,
   },
   {
-    id: 2,
-    name: "Bed Side Locker U – SS Top",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img39,
+    name: "Medicine Trolley ",
+    originalPrice: "27,500",
+    image: T2,
   },
   {
-    id: 3,
-    name: "Bed Side Locker with Heavy Fiber Top",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img40,
-  },
-  {
-    id: 4,
-    name: "Bed Side Locker U – SS Top",
-    originalPrice: " 125,000",
-    discountedPrice: "112,000",
-    discount: "-49%",
-    image: img41,
-  },
-];
-export const MedicineTrolley = [
-  {
-    id: 8,
-    name: "Medicine Trolley (MHS-MT-01)",
-    originalPrice: "32,000,",
-    discountedPrice: "27,500",
-    discount: "-14%",
-    image: img9,
-  },
-  {
-    id: 9,
-    name: "Medicine Trolley SS Top (MHS-MT-02)",
-    originalPrice: "32,000",
-    discountedPrice: "27,500",
-    discount: "-14%",
-    image: img10,
-  },
-  {
-    id: 10,
-    name: "Medicine Trolley (MHS-MT-03)",
-    originalPrice: "49,000",
-    discountedPrice: "41,000",
-    discount: "-16%",
-    image: img11,
-  },
-  {
-    id: 11,
-    name: "Medicine Trolley SS Top (MHS-MT-04)",
-    originalPrice: "29,000",
-    discountedPrice: "27,500",
-    discount: "-5%",
-    image: img12,
+    name: "Instrument Trolley ",
+    originalPrice: "6,500",
+    image: T3,
   },
 ];
 
-export const DripStands = [
-  {
-    id: 12,
-    name: "IV Pole 2 Hooks (MHS-IV-1)",
-    originalPrice: "25,00",
-    discountedPrice: "17,00",
-    discount: "-32%",
-    image: img13,
-  },
-  {
-    id: 13,
-    name: "IV Pole 2 Hooks (MHS-IV-2)",
-    originalPrice: "29,000",
-    discountedPrice: "22,00",
-    discount: "-24%",
-    image: img14,
-  },
-  {
-    id: 14,
-    name: "IV Pole 4 Hooks SS (MHS-IV-3)",
-    originalPrice: "55,00",
-    discountedPrice: "45,00",
-    discount: "-18%",
-    image: img15,
-  },
-  {
-    id: 15,
-    name: "IV Pole 4 Hooks (MHS-IV-4)",
-    originalPrice: "5,300",
-    discountedPrice: "4,200",
-    discount: "-16%",
-    image: img16,
-  },
-  {
-    id: 16,
-    name: "IV Pole 4 Hooks (MHS-IV-5)",
-    originalPrice: "3,000",
-    discountedPrice: "2,500",
-    discount: "-17%",
-    image: img17,
-  },
-  {
-    id: 17,
-    name: "IV Pole 4 Hooks SS (MHS-IV-6)",
-    originalPrice: "5,800",
-    discountedPrice: "4,800",
-    discount: "-17%",
-    image: img18,
-  },
-];
-export const InstrumentTrolley = [
-  {
-    id: 18,
-    name: "Instrument Trolley Stainless Steel Premium",
-    originalPrice: "9,500",
-    discountedPrice: "8,500",
-    discount: "-11%",
-    image: instrumentImg1,
-  },
-  {
-    id: 19,
-    name: "Instrument Trolley Stainless Steel",
-    originalPrice: "6,000",
-    discountedPrice: "4,500",
-    discount: "-25%",
-    image: instrumentImg2,
-  },
-  {
-    id: 20,
-    name: "Instrument Trolley with 2 Drawers SS",
-    originalPrice: "13,500",
-    discountedPrice: "12,500",
-    discount: "-7%",
-    image: instrumentImg3,
-  },
-  {
-    id: 21,
-    name: "Instrument Trolley with 2 Large Drawers Stainless Steel",
-    originalPrice: "18,00",
-    discountedPrice: "16,500",
-    discount: "-8%",
-    image: instrumentImg4,
-  },
-];
 export const productdata = [
   {
-    image: pimg1,
+    // image: pimg1,
     name: "VITAL SIGN MONITOR  ",
     rate: "(15)",
   },
   {
-    image: pimg2,
+    // image: pimg2,
     name: "C-ARM  ",
     rate: "(4)",
   },
   {
-    image: pimg3,
+    // image: pimg3,
     name: "EQUIPMENT TROLLEY  ",
     rate: "(5)",
   },
   {
-    image: pimg4,
+    // image: pimg4,
     name: "MONITOR STAND  ",
     rate: "(9)",
   },
   {
-    image: pimg5,
+    // image: pimg5,
     name: "ANESTHESIA MACHINE  ",
     rate: "(6)",
   },
   {
-    image: pimg7,
+    // image: pimg7,
     name: "BABY COT  ",
     rate: "(8)",
   },
   {
-    image: pimg8,
+    // image: pimg8,
     name: "BED SIDE GUARD ",
     rate: "(1) ",
   },
   {
-    image: pimg9,
+    // image: pimg9,
     name: "BED SIDE LOCKER ",
     rate: " (4)",
   },
   {
-    image: pimg10,
+    // image: pimg10,
     name: "COUCHES  ",
     rate: "(4)",
   },
 
   {
-    image: pimg12,
+    // image: pimg12,
     name: "CARDIAC MONITOR  ",
     rate: "(20)",
   },
   {
-    image: pimg13,
+    // image: pimg13,
     name: "DEFIBRILLATOR ",
     rate: " (5)",
   },
 
   {
-    image: pimg15,
+    // image: pimg15,
     name: "ECG MACHINES  ",
     rate: "(10)",
   },
   {
-    image: pimg16,
+    // image: pimg16,
     name: "ELECTRO SURGICAL UNIT  ",
     rate: "(5)",
+  },
+];
+export const Ventilators = [
+  {
+    name: "Galalio gold Ventilator for adult",
+    originalPrice: "750,000",
+    image: v1,
+  },
+  {
+    name: "Latest servo Digital Ventilator",
+    originalPrice: "815,000",
+    image: v2,
+  },
+  {
+    name: "Hamilton G5 ",
+    originalPrice: "800,000",
+    image: v3,
+  },
+  {
+    name: "Drager Evita XL ",
+    originalPrice: "450,000",
+    image: v4,
+  },
+  {
+    name: "Maquet servo S for adults and newborn patient",
+    originalPrice: "425,000",
+    image: v5,
+  },
+  {
+    name: "Aeonmed VG 70 new",
+    originalPrice: "420,000",
+    image: v6,
   },
 ];
