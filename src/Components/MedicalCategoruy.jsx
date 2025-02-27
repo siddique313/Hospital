@@ -29,7 +29,7 @@ const MedicalCategories = () => {
           <img
             id="treeLeaves"
             src={img1}
-            className="sm:h-56 h-20 absolute top-7 sm:top-32 max-w-full bg-transparent"
+            className="sm:h-56 h-32 absolute top-2 sm:top-32 max-w-full bg-transparent"
             alt="Laboratory Equipment"
           />
         </div>
