@@ -4,17 +4,17 @@ import { HospitalBeds } from "./HospitalBeds";
 import BabyCotGrid from "./BabyCotGrid";
 import ProductsComponent from "./ProductsComponent";
 import {
-  CrashCart,
   OperationTheatreTable,
-  Stool,
-  WheelChair,
-  BedSideLocker,
-  MedicineTrolley,
-  DripStands,
-  InstrumentTrolley,
+  Ventilators,
+  BabyIncubators,
+  X_RayMachine,
+  Trolley,
+  OTLight,
+  AMData,
+  AuxiliaryMedical,
+  helo,
 } from "./../data";
-import Categories from "./Categories";
-import SellingProduct from "./SellingProduct";
+import { productTitles } from "../constant";
 
 export const AppLayout = () => {
   return (
@@ -23,31 +23,43 @@ export const AppLayout = () => {
       <MedicalCategories />
       <HospitalBeds />
       <BabyCotGrid />
-      <ProductsComponent productTitle={"Crash Cart"} dataName={CrashCart} />
       <ProductsComponent
-        productTitle={"Operation Theatre Table"}
+        productTitle={productTitles?.Operation_Theatre_Table}
         dataName={OperationTheatreTable}
       />
-      <ProductsComponent productTitle={"Stool"} dataName={Stool} />
-      <ProductsComponent productTitle={"Wheel Chair"} dataName={WheelChair} />
       <ProductsComponent
-        productTitle={"Bed Side Locker"}
-        dataName={BedSideLocker}
+        productTitle={productTitles.Baby_Incubators}
+        dataName={BabyIncubators}
       />
       <ProductsComponent
-        productTitle={"Medicine Trolley"}
-        dataName={MedicineTrolley}
+        productTitle={productTitles.X_Ray_Ultrasound_Machines}
+        dataName={X_RayMachine}
+      />
+
+      <ProductsComponent
+        productTitle={productTitles.Trolley}
+        dataName={Trolley}
       />
       <ProductsComponent
-        productTitle={"Drip Stands / IV Polet"}
-        dataName={DripStands}
+        productTitle={productTitles.Ventilators}
+        dataName={Ventilators}
       />
       <ProductsComponent
-        productTitle={"Instrument Trolley"}
-        dataName={InstrumentTrolley}
+        productTitle={productTitles.Operation_Theatre_Lights}
+        dataName={OTLight}
       />
-      <Categories />
-      <SellingProduct />
+      <ProductsComponent
+        productTitle={productTitles.Anesthesia_Machine}
+        dataName={AMData}
+      />
+      <ProductsComponent
+        productTitle={productTitles.Auxiliary_Medical_Equipment}
+        dataName={AuxiliaryMedical}
+      />
+      <ProductsComponent
+        productTitle={productTitles.Stainless_Steel_table_Premium}
+        dataName={helo}
+      />
     </>
   );
 };

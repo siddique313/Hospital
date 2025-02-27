@@ -1,76 +1,53 @@
-import img1 from "../assets/bed1.avif";
-import img2 from "../assets/bed4.jpg";
-import img3 from "../assets/bed2.jpg";
-import img4 from "../assets/bed3.jpg";
-import img5 from "../assets/couch4.jpg";
-import img6 from "../assets/couch1.jpg";
-import img7 from "../assets/couch2.jpg";
-import img8 from "../assets/couch3.webp";
+import img1 from "../assets/images/bed1.jpg";
+import img2 from "../assets/images/bed2.jpg";
+import img3 from "../assets/images/bed3.jpg";
+import img4 from "../assets/images/bed4.jpg";
+import img5 from "../assets/images/bed5.jpg";
+import img6 from "../assets/images/bed6.jpg";
+import img7 from "../assets/images/bed7.jpg";
 
 const beds = [
   {
     id: 1,
     name: "Fowler Bed Imported head and foot - Patient Bed",
-    originalPrice: 35000,
-    discountedPrice: 29500,
-    discount: 16,
+    originalPrice: "20,000",
     image: img1,
   },
   {
     id: 2,
     name: "Fowler Bed - Hospital Bed - Patient Bed",
-    originalPrice: 22000,
-    discountedPrice: 17000,
-    discount: 23,
+    originalPrice: "27,500",
     image: img2,
   },
   {
     id: 3,
     name: "Semi Fowler Bed - Hospital Bed - Patient Bed",
-    originalPrice: 17000,
-    discountedPrice: 14000,
-    discount: 18,
+    originalPrice: "17,000",
     image: img3,
   },
   {
     id: 4,
     name: "Fowler Bed Heavy Duty - Hospital Bed - Patient Bed",
-    originalPrice: 27000,
-    discountedPrice: 22000,
-    discount: 19,
+    originalPrice: "42,000",
     image: img4,
   },
   {
     id: 5,
-    name: "Fowler Bed Heavy Duty - Hospital Bed - Patient Bed",
-    originalPrice: 27000,
-    discountedPrice: 22000,
-    discount: 19,
+    name: "Semi fowler Bed ",
+    originalPrice: "13,500",
     image: img5,
   },
   {
     id: 5,
-    name: "Fowler Bed Heavy Duty - Hospital Bed - Patient Bed",
-    originalPrice: 27000,
-    discountedPrice: 22000,
-    discount: 19,
+    name: "Choras couch patient bed",
+    originalPrice: "7500",
     image: img6,
   },
   {
     id: 7,
-    name: "Fowler Bed Heavy Duty - Hospital Bed - Patient Bed",
-    originalPrice: 27000,
-    discountedPrice: 22000,
-    discount: 19,
+    name: "Round couch patient bed",
+    originalPrice: "8500",
     image: img7,
-  },
-  {
-    id: 8,
-    name: "Fowler Bed Heavy Duty - Hospital Bed - Patient Bed",
-    originalPrice: 27000,
-    discountedPrice: 22000,
-    discount: 19,
-    image: img8,
   },
 ];
 
@@ -92,22 +69,21 @@ export const HospitalBeds = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
         {beds.map((bed, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg w-full ">
-            <div className="relative">
+          <div
+            key={index}
+            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center "
+          >
+            <div className="h-52  flex items-center justify-center overflow-hidden">
               <img
                 src={bed.image}
                 alt={bed.name}
-                className="w-full h-48 object-cover rounded-lg"
+                className="w-full h-64 object-cover rounded-lg"
               />
-              <span className="absolute top-2 left-2 bg-black text-white text-xs font-bold px-2 py-1 rounded">
-                -{bed.discount}%
-              </span>
             </div>
-            <h3 className="text-sm font-medium mt-4">{bed.name}</h3>
-            <p className="text-gray-500 line-through">Rs {bed.originalPrice}</p>
-            <p className="text-lg font-semibold text-blue-600">
-              Rs {bed.discountedPrice}
-            </p>
+            <div className="flex gap-3 flex-col">
+              <h3 className="text-xl text-gray-500 font-bold">{bed.name}</h3>
+              <p className="text-gray-500  text-lg">Rs {bed.originalPrice}</p>
+            </div>
           </div>
         ))}
       </div>

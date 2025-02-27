@@ -36,6 +36,7 @@ export default function SocialApps() {
               width: 20,
               height: 20,
               cursor: "pointer",
+              borderRadius: 30,
             }}
           />
           <img
@@ -52,6 +53,7 @@ export default function SocialApps() {
               width: 20,
               height: 20,
               cursor: "pointer",
+              borderRadius: 30,
             }}
           />
         </div>

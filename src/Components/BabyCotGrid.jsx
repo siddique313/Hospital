@@ -1,75 +1,105 @@
-import img1 from "../assets/ELIA.png";
-import img2 from "../assets/ELIA2.webp";
-import img3 from "../assets/ELIA3.avif";
-import img4 from "../assets/baby4.jpg";
-import img5 from "../assets/ELIA7.avif";
-import img6 from "../assets/baby6.jpg";
-import img7 from "../assets/baby7.avif";
-import img8 from "../assets/baby8.jpg";
+import img1 from "../assets/images/mindary IMEC.jpg";
+import img2 from "../assets/images/phillips efficia.jpg";
+import img3 from "../assets/images/phillips efficia2.jpg";
+import img4 from "../assets/images/heal force.jpg";
+import img5 from "../assets/images/nihon koden.jpg";
+import img6 from "../assets/images/mindary IMEC2.jpg";
+import img7 from "../assets/images/mindray.jpg";
+import img8 from "../assets/images/mindray2.jpg";
+import img9 from "../assets/images/comen.jpg";
+import img10 from "../assets/images/GE-dash.jpg";
+import img11 from "../assets/images/space-lab.jpg";
+import img12 from "../assets/images/elca para.jpg";
+import img13 from "../assets/images/phillips mp.jpg";
+import img14 from "../assets/images/phillips parameter.jpg";
+import img15 from "../assets/images/mindray3.jpg";
+import img16 from "../assets/images/datascope trio.jpg";
+import img17 from "../assets/images/edan.jpg";
 const products = [
   {
-    id: 1,
-    name: "Baby Cot with Mattress (MHS-BC-1)",
-    originalPrice: "Rs 9,500",
-    discountedPrice: "Rs 8,500",
-    discount: "-11%",
+    name: "Mindray IMEC 8",
+    originalPrice: "80,000",
     image: img1,
   },
   {
-    id: 2,
-    name: "Baby Cot with Mattress (MHS-BC-2)",
-    originalPrice: "Rs 8,500",
-    discountedPrice: "Rs 7,500",
-    discount: "-12%",
+    name: "Phillips Efficia CM 10",
+    originalPrice: "110,000",
     image: img2,
   },
   {
-    id: 3,
-    name: "Baby Cot with Mattress Premium (MHS-BC-3)",
-    originalPrice: "Rs 21,000",
-    discountedPrice: "Rs 19,000",
-    discount: "-10%",
+    name: "Phillips Efficia CM 12",
+    originalPrice: "120,000",
     image: img3,
   },
   {
-    id: 4,
-    name: "Baby Cot with Mattress (MHS-BC-4)",
-    originalPrice: "Rs 25,000",
-    discountedPrice: "Rs 22,500",
-    discount: "-10%",
+    name: "Heal force 5 parameter",
+    originalPrice: "55,000",
     image: img4,
   },
   {
-    id: 5,
-    name: "Baby Cot with Mattress (MHS-BC-4)",
-    originalPrice: "Rs 25,000",
-    discountedPrice: "Rs 22,500",
-    discount: "-10%",
+    name: "Nihon Koden 7 parameter monitor",
+    originalPrice: "150,000",
     image: img5,
   },
   {
-    id: 6,
-    name: "Baby Cot with Mattress (MHS-BC-4)",
-    originalPrice: "Rs 25,000",
-    discountedPrice: "Rs 22,500",
-    discount: "-10%",
+    name: "Mindray IMEC 10 ",
+    originalPrice: "85,000",
     image: img6,
   },
   {
-    id: 7,
-    name: "Baby Cot with Mattress (MHS-BC-4)",
-    originalPrice: "Rs 25,000",
-    discountedPrice: "Rs 22,500",
-    discount: "-10%",
+    name: "Mindray VS 900",
+    originalPrice: "40,000",
     image: img7,
   },
   {
-    id: 8,
-    name: "Baby Cot with Mattress (MHS-BC-4)",
-    originalPrice: "Rs 25,000",
-    discountedPrice: "Rs 22,500",
-    discount: "-10%",
+    name: "Mindray IPM-9800",
+    originalPrice: "75,000",
     image: img8,
+  },
+  {
+    name: "Comen C50",
+    originalPrice: "75,000",
+    image: img9,
+  },
+  {
+    name: "GE Dash 2500",
+    originalPrice: "75,000",
+    image: img10,
+  },
+  {
+    name: "Space lab mCare 300",
+    originalPrice: "50,000",
+    image: img11,
+  },
+  {
+    name: "Elace 5 para monitor by space lab",
+    originalPrice: "65,000",
+    image: img12,
+  },
+  {
+    name: "Phillips MP30",
+    originalPrice: "80,000",
+    image: img13,
+  },
+  {
+    name: "Phillips 3 parameter ",
+    originalPrice: "40,000",
+    image: img14,
+  },
+  {
+    name: "Maindray VS-600",
+    originalPrice: "30,000",
+    image: img15,
+  },
+  {
+    name: "Datascope trio",
+    originalPrice: "50,000",
+    image: img16,
+  },
+  {
+    name: "EDAN IM50",
+    originalPrice: "50,000",
+    image: img17,
   },
 ];
 
@@ -78,7 +108,9 @@ const BabyCotGrid = () => {
     <div className="container mx-auto p-4 my-11">
       <div className="flex flex-col items-center justify-center mb-12">
         <div>
-          <h2 className="text-2xl font-semibold text-center mb-8">Baby Got</h2>
+          <h2 className="text-2xl font-semibold text-center mb-8">
+            Cardiac LED
+          </h2>
         </div>
         <div className="flex gap-1">
           <div className="w-1 bg-blue-700 h-1"></div>
@@ -89,22 +121,23 @@ const BabyCotGrid = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {products.map((product, index) => (
-          <div key={index} className="relative p-4">
-            <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">
-              {product.discount}
-            </span>
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-40 object-cover mb-4 rounded"
-            />
-            <h3 className="text-base text-gray-500">{product.name}</h3>
-            <div className="flex gap-3">
-              <p className="text-gray-500 line-through text-sm">
-                {product.originalPrice}
-              </p>
-              <p className="text-sm font-bold text-blue-600">
-                {product.discountedPrice}
+          <div
+            key={index}
+            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center "
+          >
+            <div className="h-52  flex items-center justify-center">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-full  object-cover mb-4 "
+              />
+            </div>
+            <div className="flex gap-3 flex-col">
+              <h3 className="text-xl text-gray-500 font-bold">
+                {product.name}
+              </h3>
+              <p className="text-gray-500  text-lg ">
+                Price : {product.originalPrice}
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
-import img1 from "../assets/Microscope-PNG-Isolated-Transparent.png";
-import img2 from "../assets/Anesthesia-Machine.png";
-import img3 from "../assets/Hospital-Bed.png";
-import img4 from "../assets/Mechanical-Ventilator-PNG-Image.png";
+import img1 from "../assets/images/ot-bed1-removebg-preview.png";
+import img2 from "../assets/images/BabyIncubators1-removebg-preview.png";
+import img3 from "../assets/images/vent6-removebg-preview.png";
+import img4 from "../assets/images/Xray1-removebg-preview.png";
 
 import "./MC.css";
 
@@ -16,7 +16,7 @@ const MedicalCategories = () => {
             Laboratory Equipment
           </h3>
           <p className="text-2xl font-bold mt-2 text-wrap text-white">
-            Every type of Laboratory Equipment is available
+            A bed specially designed for hospitalized patients.
           </p>
         </div>
 
@@ -28,8 +28,8 @@ const MedicalCategories = () => {
         <div className="flex items-center justify-center relative w-full">
           <img
             id="treeLeaves"
-            src={img2}
-            className="sm:h-32 h-20 mt-4 absolute top-7 sm:top-32 max-w-full bg-transparent"
+            src={img1}
+            className="sm:h-56 h-32 absolute top-2 sm:top-32 max-w-full bg-transparent"
             alt="Laboratory Equipment"
           />
         </div>
@@ -44,7 +44,8 @@ const MedicalCategories = () => {
               Laboratory Equipment
             </h3>
             <p className="text-xl font-bold mt-2 text-wrap text-black">
-              Every type of Laboratory Equipment is available
+              Provides sufficient warmth to the body to maintain a desired
+              temperature.
             </p>
             <button
               className={`mt-4 py-2 px-4 rounded-3xl text-black duration-300 hover:text-white font-medium bg-white hover:bg-black`}
@@ -56,7 +57,7 @@ const MedicalCategories = () => {
           <div className="flex items-center justify-center relative w-full">
             <img
               id="treeLeaves"
-              src={img1}
+              src={img2}
               alt="Laboratory Equipment"
               className="h-24 sm:h-32 mt-4 absolute top-20 sm:top-9 max-w-full"
             />
@@ -72,7 +73,7 @@ const MedicalCategories = () => {
               Laboratory Equipment
             </h3>
             <p className="text-xl font-bold text-wrap text-white">
-              Every type of Laboratory Equipment is available
+              Machine that helps you breathe or breathes for you.
             </p>
             <button
               className={`py-2 px-4 rounded-3xl text-white duration-300 hover:text-black font-medium bg-black hover:bg-white`}
@@ -84,7 +85,7 @@ const MedicalCategories = () => {
           <div className="flex items-center justify-center relative w-full">
             <img
               id="treeLeaves"
-              src={img4}
+              src={img3}
               alt="Laboratory Equipment"
               className="h-24 sm:h-32 mt-4 absolute top-20 sm:top-9 max-w-full"
             />
@@ -99,7 +100,7 @@ const MedicalCategories = () => {
         <div className="max-h-40 flex gap-1 sm:gap-5 flex-col">
           <h3 className="text-white text-lg font-thin">Laboratory Equipment</h3>
           <p className="text-xl font-bold mt-2 text-wrap text-white">
-            Every type of Laboratory Equipment is available
+            A type of radiation, to create images of internal body structure.
           </p>
         </div>
 
@@ -111,9 +112,9 @@ const MedicalCategories = () => {
         <div className="flex items-center justify-center relative w-full">
           <img
             id="treeLeaves"
-            src={img3}
+            src={img4}
             alt="Laboratory Equipment"
-            className="sm:h-32 h-20 mt-4 absolute top-7 sm:top-32 max-w-full bg-transparent"
+            className="sm:h-40 h-20 absolute top-7 sm:top-32 max-w-full"
           />
         </div>
       </div>
