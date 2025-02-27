@@ -21,6 +21,34 @@ import v3 from "./assets/images/vent3.jpeg";
 import v4 from "./assets/images/vent4.jpeg";
 import v5 from "./assets/images/vent5.jpeg";
 import v6 from "./assets/images/vent6.jpeg";
+import otl1 from "./assets/images/otl1.jpeg";
+import otl2 from "./assets/images/otl6.jpg";
+import otl3 from "./assets/images/otl3.jpeg";
+import otl4 from "./assets/images/otl4.jpeg";
+import otl5 from "./assets/images/otl5.jpeg";
+import am1 from "./assets/images/am1.jpg";
+import am2 from "./assets/images/am2.webp";
+import am3 from "./assets/images/am3.jpg";
+import am4 from "./assets/images/am4.jpg";
+import libra from "./assets/images/Libra-removebg-preview.png";
+import compact from "./assets/images/compact-removebg-preview.png";
+import comen from "./assets/images/compact-removebg-preview.png";
+import Fluorostar from "./assets/images/fluorostar-removebg-preview.png";
+import Siemen from "./assets/images/Siemen-removebg-preview.png";
+import pimg1 from "./assets/images/phillips mp.jpg";
+import pimg3 from "./assets/images/trolley2.jpg";
+import pimg5 from "./assets/images/am3.jpg";
+import pimg7 from "./assets/images/BabyIncubators1-removebg-preview.png";
+import pimg12 from "./assets/images/mindray.jpg";
+import pimg15 from "./assets/images/Xray1.jpg";
+import pimg16 from "./assets/images/Siemen-removebg-preview.png";
+import pimg13 from "./assets/images/otl1.jpeg";
+import pimg8 from "./assets/images/ot-bed1-removebg-preview.png";
+import ssP from "./assets/images/ss-premium.jpg";
+import star from "./assets/images/alpha-star.jpg";
+import max from "./assets/images/alpha-max.jpg";
+import t20 from "./assets/images/t20.jpg";
+
 export const OperationTheatreTable = [
   {
     name: "OT table SS ",
@@ -118,71 +146,55 @@ export const Trolley = [
 
 export const productdata = [
   {
-    // image: pimg1,
+    image: pimg1,
     name: "VITAL SIGN MONITOR  ",
-    rate: "(15)",
-  },
-  {
-    // image: pimg2,
-    name: "C-ARM  ",
-    rate: "(4)",
-  },
-  {
-    // image: pimg3,
-    name: "EQUIPMENT TROLLEY  ",
-    rate: "(5)",
-  },
-  {
-    // image: pimg4,
-    name: "MONITOR STAND  ",
-    rate: "(9)",
-  },
-  {
-    // image: pimg5,
-    name: "ANESTHESIA MACHINE  ",
-    rate: "(6)",
-  },
-  {
-    // image: pimg7,
-    name: "BABY COT  ",
-    rate: "(8)",
-  },
-  {
-    // image: pimg8,
-    name: "BED SIDE GUARD ",
-    rate: "(1) ",
-  },
-  {
-    // image: pimg9,
-    name: "BED SIDE LOCKER ",
-    rate: " (4)",
-  },
-  {
-    // image: pimg10,
-    name: "COUCHES  ",
-    rate: "(4)",
   },
 
   {
-    // image: pimg12,
+    image: pimg3,
+    name: "EQUIPMENT TROLLEY  ",
+  },
+
+  {
+    image: pimg5,
+    name: "ANESTHESIA MACHINE  ",
+  },
+  {
+    image: pimg7,
+    name: "BABY Incubator  ",
+  },
+  {
+    image: pimg8,
+    name: "Operation Theatre BED  ",
+  },
+  // {
+  //   // image: pimg9,
+  //   name: "BED SIDE LOCKER ",
+  //   rate: " (4)",
+  // },
+  // {
+  //   // image: pimg10,
+  //   name: "COUCHES  ",
+  //   rate: "(4)",
+  // },
+
+  {
+    image: pimg12,
     name: "CARDIAC MONITOR  ",
     rate: "(20)",
   },
   {
-    // image: pimg13,
-    name: "DEFIBRILLATOR ",
-    rate: " (5)",
+    image: pimg13,
+    name: "Operation Theatre lights ",
   },
 
   {
-    // image: pimg15,
-    name: "ECG MACHINES  ",
-    rate: "(10)",
+    image: pimg15,
+    name: "X-Ray Machine  ",
   },
   {
-    // image: pimg16,
-    name: "ELECTRO SURGICAL UNIT  ",
-    rate: "(5)",
+    image: pimg16,
+    name: "Auxiliary Medical Equipment",
   },
 ];
 export const Ventilators = [
@@ -215,5 +227,98 @@ export const Ventilators = [
     name: "Aeonmed VG 70 new",
     originalPrice: "420,000",
     image: v6,
+  },
+];
+export const OTLight = [
+  {
+    name: "Halogon OT light hanulux made in USA",
+    originalPrice: "365,000 (Ready stock in good qty)",
+    image: otl1,
+  },
+  {
+    name: "OT light berchtold chromophare D 660",
+    originalPrice: "550,000",
+    image: otl2,
+  },
+  {
+    name: "Latest Halogin OT light made by KLS mrtin germany ",
+    originalPrice: "575,000 (Double doom)",
+    image: otl3,
+  },
+  {
+    name: "Latest LED light made by Surgiris UK",
+    originalPrice: "150,000",
+    image: otl4,
+  },
+  {
+    name: "HW-LED5 Shadowless OT Light",
+    originalPrice: "200,000",
+    image: otl5,
+  },
+];
+export const AMData = [
+  {
+    name: "Astiva 5",
+    originalPrice: "750,000",
+    image: am1,
+  },
+  {
+    name: "Aspire S 5",
+    originalPrice: "750,000",
+    image: am2,
+  },
+  {
+    name: "Aspire View ",
+    originalPrice: "950,000 ",
+    image: am3,
+  },
+  {
+    name: "Ohmeda XL 210",
+    originalPrice: "600,000",
+    image: am4,
+  },
+];
+export const AuxiliaryMedical = [
+  {
+    name: "The phillips BV libra",
+    originalPrice: "300,0000",
+    image: libra,
+  },
+  {
+    name: "The GE OEC Fluorostar",
+    originalPrice: "350,0000",
+    image: Fluorostar,
+  },
+  {
+    name: "The Siemens Arcadic Varic View ",
+    originalPrice: "320,0000 ",
+    image: Siemen,
+  },
+  {
+    name: "Siemens Compact ",
+    originalPrice: "280,0000",
+    image: compact,
+  },
+];
+export const helo = [
+  {
+    name: "Stainless Steel Table Premium",
+    originalPrice: "152,000",
+    image: ssP,
+  },
+  {
+    name: "Maquet Table Alpha Star",
+    originalPrice: "750,000",
+    image: star,
+  },
+  {
+    name: "Maquet Table Alpha max",
+    originalPrice: "850,000 ",
+    image: max,
+  },
+  {
+    name: "Eschmann T20s",
+    originalPrice: "850,000",
+    image: t20,
   },
 ];

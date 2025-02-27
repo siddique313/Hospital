@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
-import img from "../assets/images/bed1.jpg";
+import img from "../assets/images/Logi.jpg";
 import Slider from "./Slider";
 
 export const HomeScreen = () => {
@@ -14,14 +14,6 @@ export const HomeScreen = () => {
     <>
       <div className="w-full scroll-smooth ">
         <header>
-          <div className="justify-between items-center flex h-9 bg-[#208D98] sm:px-20 px-2">
-            <div className="text-white">
-              <p>Elia surgical</p>
-            </div>
-            <div className="text-white">
-              <p>+923183101072</p>
-            </div>
-          </div>
           <div className="px-10 pt-2">
             <ul className="flex justify-between items-center">
               <div className="">

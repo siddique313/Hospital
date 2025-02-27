@@ -1,7 +1,9 @@
-import img from "../assets/images/bed3.jpg";
+import img from "../assets/images/main2.jpeg";
 function HomeScreenImage() {
   return (
-    <img className="w-full h-[100vh] object-cover mb-8" src={img} alt="" />
+    <div className="p-5">
+      <img className="w-full h-[530px] object-cover mb-8" src={img} alt="" />
+    </div>
   );
 }
 
