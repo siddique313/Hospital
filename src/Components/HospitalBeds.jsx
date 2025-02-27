@@ -1,6 +1,6 @@
 import img1 from "../assets/images/bed1.jpg";
 import img2 from "../assets/images/bed2.jpg";
-import img3 from "../assets/images/bed3.jpg";
+import img3 from "../assets/images/seime.jpg";
 import img4 from "../assets/images/bed4.jpg";
 import img5 from "../assets/images/bed5.jpg";
 import img6 from "../assets/images/bed6.jpg";
