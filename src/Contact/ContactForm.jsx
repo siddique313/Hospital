@@ -1,5 +1,4 @@
 import { useFormik } from "formik";
-import { SignUpSchema } from "./sechema/index";
 
 export default function ContactForm() {
   const initialValues = {
@@ -7,10 +6,9 @@ export default function ContactForm() {
     email: "",
     textArea: "",
   };
-  const { values, errors, handleBlur, handleChange, handleSubmit, touched } =
+  const { values,  handleBlur, handleChange, handleSubmit } =
     useFormik({
       initialValues,
-      validationSchema: SignUpSchema,
       onSubmit: (value) => {
         console.log(value);
         value.email = "";
@@ -30,23 +28,6 @@ export default function ContactForm() {
           <label className="mb-2" htmlFor="name">
             Name
           </label>
-          {errors.name && touched.name ? (
-            <p className="text-red-600 text-xs">{errors.name}</p>
-          ) : null}
-
-          {errors.name && touched.name ? (
-            <input
-              className="border-2 border-red-600 outline-none rounded-2xl pl-2 py-1 w-full"
-              type="name"
-              name="name"
-              id="name"
-              placeholder="Name"
-              autoComplete="off"
-              value={values.name}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          ) : (
             <input
               className="border-2 border-slate-300 outline-none rounded-2xl pl-2 py-1 w-full"
               type="name"
@@ -58,28 +39,11 @@ export default function ContactForm() {
               onChange={handleChange}
               onBlur={handleBlur}
             />
-          )}
         </div>
         <div className="w-full flex flex-col items-start">
           <label className="mb-2" htmlFor="email">
             Email
           </label>
-          {errors.email && touched.email ? (
-            <p className="text-red-600 text-xs">{errors.email}</p>
-          ) : null}
-          {errors.email && touched.email ? (
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="email"
-              autoComplete="off"
-              className="border-2 border-red-600 outline-none rounded-2xl pl-2 py-1 w-full"
-              value={values.email}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          ) : (
             <input
               type="email"
               name="email"
@@ -91,7 +55,6 @@ export default function ContactForm() {
               onChange={handleChange}
               onBlur={handleBlur}
             />
-          )}
         </div>
         <div className="w-full h-full">
           <label htmlFor="">Your FeedBack</label>
