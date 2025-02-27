@@ -32,7 +32,6 @@ import am3 from "./assets/images/am3.jpg";
 import am4 from "./assets/images/am4.jpg";
 import libra from "./assets/images/Libra-removebg-preview.png";
 import compact from "./assets/images/compact-removebg-preview.png";
-import comen from "./assets/images/compact-removebg-preview.png";
 import Fluorostar from "./assets/images/fluorostar-removebg-preview.png";
 import Siemen from "./assets/images/Siemen-removebg-preview.png";
 import pimg1 from "./assets/images/phillips mp.jpg";
