@@ -23,9 +23,9 @@ export const HomeScreen = () => {
             className="flex md:hidden flex-col gap-1 cursor-pointer"
             onClick={toggleSidebar}
           >
-            <div className="w-6 h-0.5 bg-[#208D98]"></div>
-            <div className="w-6 h-0.5 bg-[#208D98]"></div>
-            <div className="w-6 h-0.5 bg-[#208D98]"></div>
+            <div className="w-6 h-0.5 bg-[#2EA7DE]"></div>
+            <div className="w-6 h-0.5 bg-[#2EA7DE]"></div>
+            <div className="w-6 h-0.5 bg-[#2EA7DE]"></div>
           </div>
 
           {/* Slider with transition based on sidebarVisible */}
