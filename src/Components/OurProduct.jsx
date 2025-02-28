@@ -7,8 +7,8 @@ function OurProduct() {
     data.name.toLowerCase().includes(search.toLowerCase())
   );
   return (
-    <div>
-      <div className="w-full flex items-center justify-center ">
+    <div className="sm:px-9 px-3">
+      <div className="w-full flex items-center justify-center pt-16 ">
         <input
           type="search"
           value={search}
@@ -17,16 +17,16 @@ function OurProduct() {
           placeholder="Search for product"
         />
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-7 mt-11 px-4">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 items-center justify-center grid-cols-1 gap-7 mt-11 px-4">
         {searchData.map((data, index) => {
           return (
             <div
               key={index}
-              className="flex flex-col items-center justify-center gap-3 w-full sm:w-80 md:w-96 shadow-2xl p-6 sm:h-96 h-72"
+              className="flex flex-col items-center justify-center gap-3 shadow-2xl p-3 sm:h-96 h-72"
             >
               <div>
                 <img
-                  className="w-full sm:h-72 h-40 cursor-pointer object-cover"
+                  className="w-full sm:h-56 h-40 cursor-pointer object-cover"
                   src={data.image}
                 />
               </div>
