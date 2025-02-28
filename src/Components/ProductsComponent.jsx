@@ -21,7 +21,7 @@ const ProductsComponent = ({ productTitle, dataName }) => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-60 object-cover mb-4 "
+                className="w-full h-48 object-cover mb-4 "
               />
             </div>
             <div className="flex gap-3 flex-col">
