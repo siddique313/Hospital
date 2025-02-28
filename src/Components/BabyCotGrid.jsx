@@ -120,13 +120,13 @@ const BabyCotGrid = () => {
         {products.map((product, index) => (
           <div
             key={index}
-            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center "
+            className="relative p-4 shadow-2xl sm:h-96 h-80 overflow-hidden flex flex-col justify-around items-center "
           >
-            <div className="h-52  flex items-center justify-center">
+            <div className="sm:h-40 h-44 flex items-center justify-center">
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full  object-cover mb-4 "
+                className="w-full object-cover mb-4 "
               />
             </div>
             <div className="flex gap-3 flex-col">
