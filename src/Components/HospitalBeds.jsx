@@ -53,18 +53,15 @@ const beds = [
 
 export const HospitalBeds = () => {
   return (
-    <div className="container mx-auto px-4 py-8 my-11 ">
-      <div className="flex flex-col items-center justify-center mb-12">
+    <div className="container mx-auto px-4 py-8 sm:my-32 my-9  ">
+      <div className="flex flex-col items-center justify-center mb-32">
         <div>
-          <h2 className="text-2xl font-semibold text-center mb-8">
+          <h2 className="text-2xl font-semibold text-center mb-4">
             Hospital / Patient Beds
           </h2>
         </div>
-        <div className="flex gap-1">
-          <div className="w-1 bg-blue-700 h-1"></div>
-          <div className="w-1 bg-blue-700 h-1"></div>
-          <div className="w-1 bg-blue-700 h-1"></div>
-          <div className="w-7 bg-blue-700 h-1"></div>
+        <div className="">
+          <div className="w-28 bg-blue-700 h-1"></div>
         </div>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
