@@ -218,7 +218,7 @@ export const Ventilators = [
     image: v4,
   },
   {
-    name: "Maquet servo S for adults and newborn patient",
+    name: "Maquet servo S for patient",
     originalPrice: "425,000",
     image: v5,
   },
