@@ -61,7 +61,7 @@ export const HospitalBeds = () => {
           </h2>
         </div>
         <div className="">
-          <div className="w-28 bg-blue-700 h-1"></div>
+          <div className="w-28 bg-[#36A8DA] h-1"></div>
         </div>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
@@ -78,8 +78,8 @@ export const HospitalBeds = () => {
               />
             </div>
             <div className="flex gap-3 flex-col">
-              <h3 className="text-xl text-gray-500 font-bold">{bed.name}</h3>
-              <p className="text-gray-500  text-lg">Rs {bed.originalPrice}</p>
+              <h3 className="text-xl text-black font-bold">{bed.name}</h3>
+              <p className="text-[#36A8DA]  text-lg">Rs {bed.originalPrice}</p>
             </div>
           </div>
         ))}
