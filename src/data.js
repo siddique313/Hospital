@@ -45,7 +45,7 @@ import pimg13 from "./assets/images/otl1.jpeg";
 import pimg8 from "./assets/images/ot-bed1-removebg-preview.png";
 import ssP from "./assets/images/ss-premium.jpg";
 import star from "./assets/images/alpha-star.jpg";
-import max from "./assets/images/alpha-max.jpg";
+import max from "./assets/images/maqut alpha.jpg";
 import t20 from "./assets/images/t20.jpg";
 
 export const OperationTheatreTable = [
@@ -230,8 +230,8 @@ export const Ventilators = [
 ];
 export const OTLight = [
   {
-    name: "Halogon OT light hanulux made in USA",
-    originalPrice: "365,000 (Ready stock in good qty)",
+    name: "Halogon OT light hanulux",
+    originalPrice: "365,000 ",
     image: otl1,
   },
   {
@@ -240,8 +240,8 @@ export const OTLight = [
     image: otl2,
   },
   {
-    name: "Latest Halogin OT light made by KLS mrtin germany ",
-    originalPrice: "575,000 (Double doom)",
+    name: "Latest Halogin OT light made by KLS ",
+    originalPrice: "575,000",
     image: otl3,
   },
   {

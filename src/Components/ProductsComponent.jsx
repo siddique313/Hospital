@@ -21,7 +21,15 @@ const ProductsComponent = ({ productTitle, dataName }) => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-48 object-cover mb-4 "
+                className={`${
+                  productTitle === "Baby Incubators" ||
+                  productTitle === "Operation Theatre Lights" ||
+                  productTitle === "Anesthesia Machine" ||
+                  productTitle === "Auxiliary Medical Equipment" ||
+                  productTitle === "Stainless Steel Table Premium"
+                    ? "h-40"
+                    : "h-48"
+                } w-full  object-cover mb-4 `}
               />
             </div>
             <div className="flex gap-3 flex-col">
