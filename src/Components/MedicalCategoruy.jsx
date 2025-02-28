@@ -2,9 +2,7 @@ import img1 from "../assets/images/ot-bed1-removebg-preview.png";
 import img2 from "../assets/images/BabyIncubators1-removebg-preview.png";
 import img3 from "../assets/images/vent6-removebg-preview.png";
 import img4 from "../assets/images/Xray1-removebg-preview.png";
-
 import "./MC.css";
-
 const MedicalCategories = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-6 items-center justify-center px-5 md:px-6  lg:px-12 mb-40">
