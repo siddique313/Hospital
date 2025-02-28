@@ -104,7 +104,7 @@ export const X_RayMachine = [
     image: XR1,
   },
   {
-    name: "Toshiba latest color droppler Xario 100 ",
+    name: "Toshiba droppler Xario 100 ",
     originalPrice: " 1,250,000",
     image: XR2,
   },
@@ -114,7 +114,7 @@ export const X_RayMachine = [
     image: XR3,
   },
   {
-    name: "Brand new Ultrasound with convex probe (APOLLO 7)",
+    name: "Ultrasound Machine with probe",
     originalPrice: " 285,000",
     image: XR4,
   },

@@ -34,7 +34,7 @@ const ProductsComponent = ({ productTitle, dataName }) => {
               />
             </div>
             <div className="flex gap-3 flex-col">
-              <h3 className="text-xl text-black font-bold">{product.name}</h3>
+              <h3 className="text-lg text-black font-bold">{product.name}</h3>
               <p className="text-[#36A8DA]  text-lg ">
                 Price : {product.originalPrice}
               </p>
