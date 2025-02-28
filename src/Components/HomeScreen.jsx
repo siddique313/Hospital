@@ -23,9 +23,9 @@ export const HomeScreen = () => {
             className="flex md:hidden flex-col gap-1 cursor-pointer"
             onClick={toggleSidebar}
           >
-            <div className="w-6 h-0.5 bg-blue-700"></div>
-            <div className="w-6 h-0.5 bg-blue-700"></div>
-            <div className="w-6 h-0.5 bg-blue-700"></div>
+            <div className="w-6 h-0.5 bg-[#208D98]"></div>
+            <div className="w-6 h-0.5 bg-[#208D98]"></div>
+            <div className="w-6 h-0.5 bg-[#208D98]"></div>
           </div>
 
           {/* Slider with transition based on sidebarVisible */}
@@ -36,22 +36,22 @@ export const HomeScreen = () => {
 
           <div className="hidden md:flex gap-6">
             <NavLink to="/">
-              <li className="cursor-pointer hover:text-blue-400 duration-200">
+              <li className="cursor-pointer hover:text-[#36A8DA] duration-200 font-bold">
                 HOME
               </li>
             </NavLink>
             <NavLink to={"About"}>
-              <li className="cursor-pointer hover:text-blue-400 duration-200">
+              <li className="cursor-pointer hover:text-[#36A8DA] duration-200 font-bold">
                 ABOUT
               </li>
             </NavLink>
             <NavLink to={"ourProduct"}>
-              <li className="cursor-pointer hover:text-blue-400 duration-200">
-                SHOP
+              <li className="cursor-pointer hover:text-[#36A8DA] duration-200 font-bold">
+                OUR PRODUCT
               </li>
             </NavLink>
             <NavLink to={"contact"}>
-              <li className="cursor-pointer hover:text-blue-400 duration-200">
+              <li className="cursor-pointer hover:text-[#36A8DA] duration-200 font-bold ">
                 CONTACT US
               </li>
             </NavLink>

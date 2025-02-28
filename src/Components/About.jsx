@@ -3,17 +3,19 @@ function About() {
     <>
       <div className="flex flex-col items-center justify-center p-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-16 items-center justify-center mt-8">
-          <div className="border-l-4 border-blue-800 ml-{1.5}">
+          <div className="border-l-4 border-[#36A8DA] ml-{1.5}">
             <div className="w-13 ml-2">
               <h1 className="font-extrabold">Welcome to </h1>
               <h1 className="font-extrabold ">ELIA</h1>
               <h1 className="font-extrabold "> Surgical</h1>
-              <p>Your Complete Medical Equipment Solutions</p>
+              <p className="text-gray-700">
+                Your Complete Medical Equipment Solutions
+              </p>
             </div>
           </div>
           <div className="flex flex-col gap-3 justify-center self-center">
-            <h1 className="font-extrabold hover:text-blue-700">About Us</h1>
-            <p>
+            <h1 className="font-extrabold hover:text-[#36A8DA]">About Us</h1>
+            <p className="text-gray-800">
               ELIA Surgical is a leading name in the medical industry, serving
               as both one of the biggest importers of medical equipment and
               Pakistans number one (#1) and largest manufacturing group of
@@ -25,10 +27,10 @@ function About() {
             </p>
           </div>
           <div className="flex flex-col gap-3 justify-center self-center">
-            <h1 className="font-extrabold  hover:text-blue-700">
+            <h1 className="font-extrabold  hover:text-[#36A8DA]">
               Importing Medical Excellence
             </h1>
-            <p>
+            <p className="text-gray-800">
               {" "}
               We take pride in being a premier importer of top-quality medical
               equipment from around the world. Our extensive network allows us
@@ -43,10 +45,10 @@ function About() {
           </div>
         </div>
         <div className="flex flex-col gap-3 justify-center self-center md:w-96 w-full md:p-5 p-0 mt-14">
-          <h1 className="font-extrabold  hover:text-blue-900 ">
+          <h1 className="font-extrabold  hover:text-[#36A8DA] ">
             Manufacturing Hospital Furniture
           </h1>
-          <p>
+          <p className="text-gray-800">
             With three state-of-the-art manufacturing units in Lahore, Ali.
             Haider Surgical is dedicated to producing high-quality Hospital
             Furniture. Our large manufacturing capacity enables us to meet the
