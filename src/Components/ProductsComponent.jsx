@@ -26,8 +26,9 @@ const ProductsComponent = ({ productTitle, dataName }) => {
                   productTitle === "Operation Theatre Lights" ||
                   productTitle === "Anesthesia Machine" ||
                   productTitle === "Auxiliary Medical Equipment" ||
-                  productTitle === "Stainless Steel Table Premium"
-                    ? "h-40"
+                  productTitle === "Stainless Steel Table Premium" ||
+                  productTitle === "Operation Theatre Table"
+                    ? "h-[140px]"
                     : "h-48"
                 } w-full  object-cover mb-4 `}
               />
