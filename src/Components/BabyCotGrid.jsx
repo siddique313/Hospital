@@ -109,7 +109,7 @@ const BabyCotGrid = () => {
       <div className="flex flex-col items-center justify-center mb-32">
         <div>
           <h2 className="text-2xl font-semibold text-center mb-4">
-            Cardiac LED
+            Patient Monitor
           </h2>
         </div>
         <div className="">

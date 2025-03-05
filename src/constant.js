@@ -7,5 +7,4 @@ export const productTitles = {
   Operation_Theatre_Lights: "Operation Theatre Lights",
   Anesthesia_Machine: "Anesthesia Machine",
   Auxiliary_Medical_Equipment: "Auxiliary Medical Equipment",
-  Stainless_Steel_table_Premium: "Stainless Steel Table Premium",
 };

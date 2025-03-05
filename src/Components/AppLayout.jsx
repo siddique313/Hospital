@@ -12,7 +12,6 @@ import {
   OTLight,
   AMData,
   AuxiliaryMedical,
-  helo,
 } from "./../data";
 import { productTitles } from "../constant";
 
@@ -55,10 +54,6 @@ export const AppLayout = () => {
       <ProductsComponent
         productTitle={productTitles.Auxiliary_Medical_Equipment}
         dataName={AuxiliaryMedical}
-      />
-      <ProductsComponent
-        productTitle={productTitles.Stainless_Steel_table_Premium}
-        dataName={helo}
       />
     </>
   );
