@@ -68,7 +68,7 @@ export const HospitalBeds = () => {
         {beds.map((bed, index) => (
           <div
             key={index}
-            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center "
+            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center bg-[#ffe87f9f]"
           >
             <div className="h-52  flex items-center justify-center overflow-hidden">
               <img
@@ -78,8 +78,12 @@ export const HospitalBeds = () => {
               />
             </div>
             <div className="flex gap-3 flex-col">
-              <h3 className="text-xl text-black font-bold">{bed.name}</h3>
-              <p className="text-[#36A8DA]  text-lg">Rs {bed.originalPrice}</p>
+              <h3 className="text-xl text-black font-bold bg-[#7cb9ff] px-4">
+                {bed.name}
+              </h3>
+              <p className="text-[black]  text-lg bg-[lightgreen] px-4">
+                Rs {bed.originalPrice}
+              </p>
             </div>
           </div>
         ))}

@@ -120,7 +120,7 @@ const BabyCotGrid = () => {
         {products.map((product, index) => (
           <div
             key={index}
-            className="relative p-4 shadow-2xl sm:h-96 h-80 overflow-hidden flex flex-col justify-around items-center "
+            className="relative p-4 shadow-2xl sm:h-96 h-80 overflow-hidden flex flex-col justify-around items-center bg-[#ffe87f9f]"
           >
             <div className="sm:h-40 h-44 flex items-center justify-center">
               <img
@@ -130,8 +130,10 @@ const BabyCotGrid = () => {
               />
             </div>
             <div className="flex gap-3 flex-col">
-              <h3 className="text-xl text-black font-bold">{product.name}</h3>
-              <p className="text-[#36A8DA]  text-lg ">
+              <h3 className="text-xl text-black font-bold bg-[#6fb2ff] px-4">
+                {product.name}
+              </h3>
+              <p className="text-[black]  text-lg bg-[lightgreen] px-4">
                 Price : {product.originalPrice}
               </p>
             </div>

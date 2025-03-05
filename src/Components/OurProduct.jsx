@@ -22,7 +22,7 @@ function OurProduct() {
           return (
             <div
               key={index}
-              className="flex flex-col items-center justify-center gap-3 shadow-2xl p-3 sm:h-96 h-72"
+              className="flex flex-col items-center justify-center gap-3 shadow-2xl p-3 sm:h-96 h-72 bg-[#ffe87f9f]"
             >
               <div>
                 <img
