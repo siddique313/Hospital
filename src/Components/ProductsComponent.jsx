@@ -15,7 +15,7 @@ const ProductsComponent = ({ productTitle, dataName }) => {
         {dataName?.map((product, index) => (
           <div
             key={index}
-            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center "
+            className="relative p-4 shadow-2xl h-96 overflow-hidden flex flex-col justify-around items-center bg-[#ffe87f9f]"
           >
             <div className="h-52  flex items-center justify-center">
               <img
@@ -34,8 +34,10 @@ const ProductsComponent = ({ productTitle, dataName }) => {
               />
             </div>
             <div className="flex gap-3 flex-col">
-              <h3 className="text-lg text-black font-bold">{product.name}</h3>
-              <p className="text-[#36A8DA]  text-lg ">
+              <h3 className="text-lg text-black font-bold px-4 bg-[#7cb9ff]">
+                {product.name}
+              </h3>
+              <p className="text-[black]  text-lg bg-[lightgreen] px-4">
                 Price : {product.originalPrice}
               </p>
             </div>
