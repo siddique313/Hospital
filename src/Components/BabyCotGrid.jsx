@@ -102,7 +102,7 @@ const products = [
     image: img17,
   },
 ];
-
+//  hello
 const BabyCotGrid = () => {
   return (
     <div className="container mx-auto p-4  sm:my-32 my-9">
