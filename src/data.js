@@ -19,7 +19,7 @@ import v1 from "./assets/images/Galalio gold Ventilator for adult.jpg";
 import v2 from "./assets/images/Latest servo Digital Ventilator.jpg";
 import v3 from "./assets/images/Hamilton G5.jpg";
 import v4 from "./assets/images/Drager Evita XL.jpg";
-import v5 from "./assets/images/Maquet servo S for adults and newborn patient.jpg";
+import v5 from "./assets/images/Getinge-Maquet-Servo-S.jpg";
 import v6 from "./assets/images/vent6.jpeg";
 import otl1 from "./assets/images/Halogon OT light hanulux made in USA.jpg";
 import otl2 from "./assets/images/OT light berchtold chromophare D 660.jpg";
@@ -27,7 +27,7 @@ import otl3 from "./assets/images/Latest Halogin OT light made by KLS mrtin germ
 import otl4 from "./assets/images/Latest LED light made by Surgiris UK.jpg";
 import otl5 from "./assets/images/otl5.jpeg";
 import am1 from "./assets/images/am1.jpg";
-import am2 from "./assets/images/am2.webp";
+import am2 from "./assets/images/anesthesia machine.jpg ";
 import am3 from "./assets/images/am3.jpg";
 import am4 from "./assets/images/am4.jpg";
 import libra from "./assets/images/Libra-removebg-preview.png";
@@ -50,13 +50,13 @@ import t20 from "./assets/images/t20.jpg";
 
 export const OperationTheatreTable = [
   {
-    name: "OT table SS ",
-    originalPrice: " 138,000",
+    name: "OT table metal ",
+    originalPrice: " 112,000",
     image: ot1,
   },
   {
     name: "OT table metal with SS top",
-    originalPrice: " 112,000",
+    originalPrice: " 138,000",
     image: ot2,
   },
   {
@@ -232,12 +232,12 @@ export const OTLight = [
   {
     name: "Halogon OT light hanulux",
     originalPrice: "365,000 ",
-    image: otl1,
+    image: otl2,
   },
   {
     name: "OT light berchtold chromophare D 660",
     originalPrice: "550,000",
-    image: otl2,
+    image: otl1,
   },
   {
     name: "Latest Halogin OT light made by KLS ",
@@ -297,27 +297,5 @@ export const AuxiliaryMedical = [
     name: "Siemens Compact ",
     originalPrice: "280,0000",
     image: compact,
-  },
-];
-export const helo = [
-  {
-    name: "Stainless Steel Table Premium",
-    originalPrice: "152,000",
-    image: ssP,
-  },
-  {
-    name: "Maquet Table Alpha Star",
-    originalPrice: "750,000",
-    image: star,
-  },
-  {
-    name: "Maquet Table Alpha max",
-    originalPrice: "850,000 ",
-    image: max,
-  },
-  {
-    name: "Eschmann T20s",
-    originalPrice: "850,000",
-    image: t20,
   },
 ];
