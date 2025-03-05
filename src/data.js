@@ -17,7 +17,7 @@ import T2 from "./assets/images/trolley2.jpg";
 import T3 from "./assets/images/trolley3.jpeg";
 import v1 from "./assets/images/Galalio gold Ventilator for adult.jpg";
 import v2 from "./assets/images/Latest servo Digital Ventilator.jpg";
-import v3 from "./assets/images/Hamilton G5.jpg";
+import v3 from "./assets/images/hamilton-medical-g5-icu-ventilator-500x500.png";
 import v4 from "./assets/images/Drager Evita XL.jpg";
 import v5 from "./assets/images/Getinge-Maquet-Servo-S.jpg";
 import v6 from "./assets/images/vent6.jpeg";
@@ -194,12 +194,12 @@ export const productdata = [
 ];
 export const Ventilators = [
   {
-    name: "Galalio gold Ventilator for adult",
+    name: "Latest servo I Ventilator for adult",
     originalPrice: "750,000",
     image: v1,
   },
   {
-    name: "Latest servo Digital Ventilator",
+    name: "Galalio gold Digital Ventilator",
     originalPrice: "815,000",
     image: v2,
   },
