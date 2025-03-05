@@ -27,7 +27,7 @@ import otl3 from "./assets/images/Latest Halogin OT light made by KLS mrtin germ
 import otl4 from "./assets/images/Latest LED light made by Surgiris UK.jpg";
 import otl5 from "./assets/images/otl5.jpeg";
 import am1 from "./assets/images/am1.jpg";
-import am2 from "./assets/images/anesthesia machine.jpg ";
+import am2 from "./assets/images/anmachine.jpg";
 import am3 from "./assets/images/am3.jpg";
 import am4 from "./assets/images/am4.jpg";
 import libra from "./assets/images/Libra-removebg-preview.png";
@@ -43,10 +43,6 @@ import pimg15 from "./assets/images/Xray1.jpg";
 import pimg16 from "./assets/images/Siemen-removebg-preview.png";
 import pimg13 from "./assets/images/otl1.jpeg";
 import pimg8 from "./assets/images/ot-bed1-removebg-preview.png";
-import ssP from "./assets/images/ss-premium.jpg";
-import star from "./assets/images/alpha-star.jpg";
-import max from "./assets/images/maqut alpha.jpg";
-import t20 from "./assets/images/t20.jpg";
 
 export const OperationTheatreTable = [
   {
